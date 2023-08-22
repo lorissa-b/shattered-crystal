@@ -62,6 +62,7 @@ ROMX $0d
 	"Effect Commands"
 ROMX $0e
 	"Enemy Trainers"
+	"Enemy Trainer Parties"
 ROMX $0f
 	"Battle Core"
 ROMX $10
@@ -192,11 +193,9 @@ ROMX $46
 ROMX $47
 	"Battle Tower"
 ROMX $48
-	org $4000
 	"Pic Pointers"
 	"Pics 1"
 ROMX $49
-	org $4000
 	"Unown Pic Pointers"
 	"Pics 2"
 ROMX $4a
@@ -236,22 +235,17 @@ ROMX $5a
 	"Pics 19"
 ROMX $5b
 	"bank5B"
-	"Pics 20"
 ROMX $5c
 	"mobile5C"
-	"Pics 21"
 ROMX $5d
 	"Crystal Phone Text 2"
-	"Pics 22"
 ROMX $5e
 	"UpdateBattleHUDs"
 	"Songs 5"
 	"Crystal Sound Effects"
 	"mobile5E"
-	"Pics 23"
 ROMX $5f
 	"mobile5F"
-	"Pics 24"
 ROMX $60
 	"Map Scripts 13"
 	"Pokedex Entries 001-064"
@@ -332,6 +326,8 @@ WRAM0
 	"Overworld Map"
 	align 4
 	"Video"
+	align 5
+	"16-bit WRAM home data"
 WRAMX 1
 	"WRAM 1"
 	"Miscellaneous WRAM 1"

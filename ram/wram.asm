@@ -739,13 +739,8 @@ wDexListingCursorBackup:: db
 wBackupDexListingCursor:: db
 wBackupDexListingPage:: db
 wDexCurLocation:: db
-if DEF(_CRYSTAL11)
 wPokedexStatus:: db
 wPokedexDataEnd::
-else
-wPokedexDataEnd::
-	ds 1
-endc
 	ds 2
 
 NEXTU
@@ -1533,14 +1528,7 @@ wCreditsLYOverride:: db
 NEXTU
 ; pokedex
 wPrevDexEntryJumptableIndex:: db
-if DEF(_CRYSTAL11)
 wPrevDexEntryBackup:: db
-else
-; BUG: Crystal 1.0 reused the same byte in WRAM for
-; wPokedexStatus and wPrevDexEntryBackup.
-wPokedexStatus::
-wPrevDexEntryBackup:: db
-endc
 wUnusedPokedexByte:: db
 
 NEXTU
@@ -1822,6 +1810,16 @@ wSecondsSince:: db
 wMinutesSince:: db
 wHoursSince:: db
 wDaysSince:: db
+
+	ds 7
+
+wTempLoopCounter:: db
+
+
+SECTION "16-bit WRAM home data", WRAM0
+; align to $20
+
+wConversionTableBitmap:: ds $20
 
 
 SECTION "WRAM 1", WRAMX
@@ -2623,6 +2621,13 @@ NEXTU
 wBuySellItemPrice::
 wTempMysteryGiftTimer::
 wMagikarpLength:: dw
+
+NEXTU
+; 16-bit wram
+	ds 13
+wOtherTrainerType:: db
+wTrainerGroupBank:: db
+
 ENDU
 
 wTempEnemyMonSpecies::  db
@@ -2724,7 +2729,6 @@ wTempPP::
 wNextBoxOrPartyIndex::
 wChosenCableClubRoom::
 wBreedingCompatibility::
-wMoveGrammar::
 wApplyStatLevelMultipliersToEnemy::
 wUsePPUp::
 wd265:: ; mobile
@@ -3637,8 +3641,7 @@ wScratchTilemap:: ds BG_MAP_WIDTH * BG_MAP_HEIGHT
 wScratchAttrmap:: ds BG_MAP_WIDTH * BG_MAP_HEIGHT
 
 NEXTU
-wDecompressScratch:: ds $80 tiles
-wDecompressEnemyFrontpic:: ds $80 tiles
+wDecompressScratch:: ds $100 tiles
 
 NEXTU
 ; unidentified uses

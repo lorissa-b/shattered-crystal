@@ -396,7 +396,7 @@ PlacePartyMonEvoStoneCompatibility:
 	ld l, a
 	ld de, wStringBuffer1
 	ld a, BANK("Evolutions and Attacks")
-	ld bc, 10
+	ld bc, wStringBuffer2 - wStringBuffer1
 	call FarCopyBytes
 	ld hl, wStringBuffer1
 .loop2
@@ -404,6 +404,10 @@ PlacePartyMonEvoStoneCompatibility:
 	ld a, [hli]
 	and a
 	jr z, .nope
+	cp EVOLVE_STAT
+	jr nz, .no_skip_extra_byte
+	inc hl
+.no_skip_extra_byte
 	inc hl
 	inc hl
 	cp EVOLVE_ITEM
