@@ -58,7 +58,7 @@ GetMonFrontpic:
 	call _GetFrontpic
 	pop af
 	ldh [rSVBK], a
-	ret
+	jp CloseSRAM
 
 GetAnimatedFrontpic:
 	ld a, [wCurPartySpecies]
@@ -70,12 +70,18 @@ GetAnimatedFrontpic:
 	xor a
 	ldh [hBGMapMode], a
 	call _GetFrontpic
+	ld a, BANK(vTiles3)
+	ldh [rVBK], a
 	call GetAnimatedEnemyFrontpic
+	xor a
+	ldh [rVBK], a
 	pop af
 	ldh [rSVBK], a
-	ret
+	jp CloseSRAM
 
 _GetFrontpic:
+	ld a, BANK(sEnemyFrontPicTileCount)
+	call OpenSRAM
 	push de
 	call GetBaseData
 	ld a, [wBasePicSize]
@@ -83,18 +89,26 @@ _GetFrontpic:
 	ld b, a
 	push bc
 	call GetFrontpicPointer
-	ld a, BANK(wDecompressEnemyFrontpic)
+	ld a, BANK(wDecompressScratch)
 	ldh [rSVBK], a
 	ld a, b
-	ld de, wDecompressEnemyFrontpic
+	ld de, wDecompressScratch
 	call FarDecompress
+	; calculate tile count from final address; requires wDecompressScratch to be at the beginning of the bank
+	swap e
+	swap d
+	ld a, d
+	and $f0 ; get rid of the upper nibble of the address
+	or e
+	; and save the tile count for later
+	ld [sEnemyFrontPicTileCount], a
 	pop bc
-	ld hl, wDecompressScratch
-	ld de, wDecompressEnemyFrontpic
+	ld hl, sPaddedEnemyFrontPic
+	ld de, wDecompressScratch
 	call PadFrontpic
 	pop hl
 	push hl
-	ld de, wDecompressScratch
+	ld de, sPaddedEnemyFrontPic
 	ld c, 7 * 7
 	ldh a, [hROMBank]
 	ld b, a
@@ -102,26 +116,44 @@ _GetFrontpic:
 	pop hl
 	ret
 
-GetFrontpicPointer:
+GetPicIndirectPointer:
 	ld a, [wCurPartySpecies]
-	cp UNOWN
+	call GetPokemonIndexFromID
+	ld b, h
+	ld c, l
+	ld a, l
+	sub LOW(UNOWN)
+	if HIGH(UNOWN) == 0
+		or h
+	else
+		jr nz, .not_unown
+		if HIGH(UNOWN) == 1
+			dec h
+		else
+			ld a, h
+			cp HIGH(UNOWN)
+		endc
+	endc
 	jr z, .unown
-	ld a, [wCurPartySpecies]
+.not_unown
+	ld hl, PokemonPicPointers
 	ld d, BANK(PokemonPicPointers)
-	jr .ok
+.done
+	ld a, 6
+	jp AddNTimes
+
 .unown
 	ld a, [wUnownLetter]
+	ld c, a
+	ld b, 0
+	ld hl, UnownPicPointers - 6
 	ld d, BANK(UnownPicPointers)
-.ok
-	; These are assumed to be at the same address in their respective banks.
-	assert PokemonPicPointers == UnownPicPointers
-	ld hl, PokemonPicPointers
-	dec a
-	ld bc, 6
-	call AddNTimes
+	jr .done
+
+GetFrontpicPointer:
+	call GetPicIndirectPointer
 	ld a, d
 	call GetFarByte
-	call FixPicBank
 	push af
 	inc hl
 	ld a, d
@@ -130,10 +162,8 @@ GetFrontpicPointer:
 	ret
 
 GetAnimatedEnemyFrontpic:
-	ld a, BANK(vTiles3)
-	ldh [rVBK], a
 	push hl
-	ld de, wDecompressScratch
+	ld de, sPaddedEnemyFrontPic
 	ld c, 7 * 7
 	ldh a, [hROMBank]
 	ld b, a
@@ -147,17 +177,23 @@ GetAnimatedEnemyFrontpic:
 	call GetFarWRAMByte
 	pop hl
 	and $f
-	ld de, wDecompressEnemyFrontpic + 5 * 5 tiles
+	ld de, wDecompressScratch + 5 * 5 tiles
 	ld c, 5 * 5
 	cp 5
 	jr z, .got_dims
-	ld de, wDecompressEnemyFrontpic + 6 * 6 tiles
+	ld de, wDecompressScratch + 6 * 6 tiles
 	ld c, 6 * 6
 	cp 6
 	jr z, .got_dims
-	ld de, wDecompressEnemyFrontpic + 7 * 7 tiles
+	ld de, wDecompressScratch + 7 * 7 tiles
 	ld c, 7 * 7
 .got_dims
+	; calculate the number of tiles dedicated to animation
+	ld a, [sEnemyFrontPicTileCount]
+	sub c
+	; exit early if none
+	ret z
+	ld c, a
 	push hl
 	push bc
 	call LoadFrontpicTiles
@@ -166,10 +202,24 @@ GetAnimatedEnemyFrontpic:
 	ld de, wDecompressScratch
 	ldh a, [hROMBank]
 	ld b, a
+	; if the tiles fit in a single VRAM block ($80 tiles), load them...
+	ld a, c
+	sub 128 - 7 * 7
+	jr c, .finish
+	; otherwise, load as many as we can...
+	inc a
+	ld [sEnemyFrontPicTileCount], a ; save the remainder
+	ld c, 127 - 7 * 7
 	call Get2bpp
-	xor a
-	ldh [rVBK], a
-	ret
+	; ...and load the rest into vTiles4
+	ld de, wDecompressScratch + (127 - 7 * 7) tiles
+	ld hl, vTiles4
+	ldh a, [hROMBank]
+	ld b, a
+	ld a, [sEnemyFrontPicTileCount]
+	ld c, a
+.finish
+	jp Get2bpp
 
 LoadFrontpicTiles:
 	ld hl, wDecompressScratch
@@ -183,11 +233,18 @@ LoadFrontpicTiles:
 	push bc
 	call LoadOrientedFrontpic
 	pop bc
+	ld a, c
+	and a
+	jr z, .handle_loop
+	inc b
+	jr .handle_loop
+
 .loop
 	push bc
 	ld c, 0
 	call LoadOrientedFrontpic
 	pop bc
+.handle_loop
 	dec b
 	jr nz, .loop
 	ret
@@ -197,34 +254,18 @@ GetMonBackpic:
 	call IsAPokemon
 	ret c
 
-	ld a, [wCurPartySpecies]
-	ld b, a
-	ld a, [wUnownLetter]
-	ld c, a
 	ldh a, [rSVBK]
 	push af
+	push de
+	call GetPicIndirectPointer
 	ld a, BANK(wDecompressScratch)
 	ldh [rSVBK], a
-	push de
 
-	; These are assumed to be at the same address in their respective banks.
-	assert PokemonPicPointers == UnownPicPointers
-	ld hl, PokemonPicPointers
-	ld a, b
-	ld d, BANK(PokemonPicPointers)
-	cp UNOWN
-	jr nz, .ok
-	ld a, c
-	ld d, BANK(UnownPicPointers)
-.ok
-	dec a
-	ld bc, 6
-	call AddNTimes
-	ld bc, 3
-	add hl, bc
+	inc hl
+	inc hl
+	inc hl
 	ld a, d
 	call GetFarByte
-	call FixPicBank
 	push af
 	inc hl
 	ld a, d
@@ -242,69 +283,6 @@ GetMonBackpic:
 	call Get2bpp
 	pop af
 	ldh [rSVBK], a
-	ret
-
-FixPicBank:
-; This is a thing for some reason.
-
-DEF PICS_FIX EQU $36
-EXPORT PICS_FIX
-
-	push hl
-	push bc
-	sub BANK("Pics 1") - PICS_FIX
-	ld c, a
-	ld b, 0
-	ld hl, .PicsBanks
-	add hl, bc
-	ld a, [hl]
-	pop bc
-	pop hl
-	ret
-
-.PicsBanks:
-	db BANK("Pics 1")  ; BANK("Pics 1") + 0
-	db BANK("Pics 2")  ; BANK("Pics 1") + 1
-	db BANK("Pics 3")  ; BANK("Pics 1") + 2
-	db BANK("Pics 4")  ; BANK("Pics 1") + 3
-	db BANK("Pics 5")  ; BANK("Pics 1") + 4
-	db BANK("Pics 6")  ; BANK("Pics 1") + 5
-	db BANK("Pics 7")  ; BANK("Pics 1") + 6
-	db BANK("Pics 8")  ; BANK("Pics 1") + 7
-	db BANK("Pics 9")  ; BANK("Pics 1") + 8
-	db BANK("Pics 10") ; BANK("Pics 1") + 9
-	db BANK("Pics 11") ; BANK("Pics 1") + 10
-	db BANK("Pics 12") ; BANK("Pics 1") + 11
-	db BANK("Pics 13") ; BANK("Pics 1") + 12
-	db BANK("Pics 14") ; BANK("Pics 1") + 13
-	db BANK("Pics 15") ; BANK("Pics 1") + 14
-	db BANK("Pics 16") ; BANK("Pics 1") + 15
-	db BANK("Pics 17") ; BANK("Pics 1") + 16
-	db BANK("Pics 18") ; BANK("Pics 1") + 17
-	db BANK("Pics 19") ; BANK("Pics 1") + 18
-	db BANK("Pics 20") ; BANK("Pics 1") + 19
-	db BANK("Pics 21") ; BANK("Pics 1") + 20
-	db BANK("Pics 22") ; BANK("Pics 1") + 21
-	db BANK("Pics 23") ; BANK("Pics 1") + 22
-	db BANK("Pics 24") ; BANK("Pics 1") + 23
-
-GSIntro_GetMonFrontpic: ; unreferenced
-	ld a, c
-	push de
-	ld hl, PokemonPicPointers
-	dec a
-	ld bc, 6
-	call AddNTimes
-	ld a, BANK(PokemonPicPointers)
-	call GetFarByte
-	call FixPicBank
-	push af
-	inc hl
-	ld a, BANK(PokemonPicPointers)
-	call GetFarWord
-	pop af
-	pop de
-	call FarDecompress
 	ret
 
 GetTrainerPic:
@@ -328,7 +306,6 @@ GetTrainerPic:
 	push de
 	ld a, BANK(TrainerPicPointers)
 	call GetFarByte
-	call FixPicBank
 	push af
 	inc hl
 	ld a, BANK(TrainerPicPointers)

@@ -217,7 +217,11 @@ GetMonSprite:
 	ld d, 0
 	ld hl, SpriteMons
 	add hl, de
-	ld a, [hl]
+	add hl, de
+	ld a, [hli]
+	ld h, [hl]
+	ld l, a
+	call GetPokemonIDFromIndex
 	jr .Mon
 
 .BreedMon1
@@ -346,8 +350,6 @@ AddSpriteGFX:
 	ret
 
 LoadSpriteGFX:
-; BUG: LoadSpriteGFX does not limit the capacity of UsedSprites (see docs/bugs_and_glitches.md)
-
 	ld hl, wUsedSprites
 	ld b, SPRITE_GFX_LIST_CAPACITY
 .loop
@@ -365,7 +367,9 @@ LoadSpriteGFX:
 	ret
 
 .LoadSprite:
+	push bc
 	call GetSprite
+	pop bc
 	ld a, l
 	ret
 
