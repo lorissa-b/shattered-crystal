@@ -279,6 +279,25 @@ BattleAnimations::
 	dw BattleAnim_RockSmash
 	dw BattleAnim_Whirlpool
 	dw BattleAnim_BeatUp
+	dw BattleAnim_FairyWind
+	dw BattleAnim_MagicalLeaf
+	dw BattleAnim_DazzleGleam
+	dw BattleAnim_SeedBomb
+	dw BattleAnim_FlareBlitz
+	dw BattleAnim_JetPunch
+	dw BattleAnim_IceFang
+	dw BattleAnim_AquaTail
+	dw BattleAnim_DisarmVoice
+	dw BattleAnim_EchoedVoice
+	dw BattleAnim_Uproar
+	dw BattleAnim_AirSlash
+	dw BattleAnim_Roost
+	dw BattleAnim_Infestation
+	dw BattleAnim_BugBuzz
+	dw BattleAnim_DarkPulse
+	dw BattleAnim_XScissor
+	dw BattleAnim_DrainingKiss
+	dw BattleAnim_FleurCannon
 	assert_table_length NUM_ATTACKS + 1
 	dw BattleAnim_SweetScent2
 
@@ -586,6 +605,7 @@ BattleAnim_InNightmare:
 	anim_wait 40
 	anim_ret
 
+BattleAnim_Infestation:
 BattleAnim_InWhirlpool:
 	anim_1gfx ANIM_GFX_WIND
 	anim_bgeffect ANIM_BG_WHIRLPOOL, $0, $0, $0
@@ -1145,6 +1165,7 @@ BattleAnim_VineWhip:
 	anim_wait 4
 	anim_ret
 
+BattleAnim_SeedBomb:
 BattleAnim_LeechSeed:
 	anim_1gfx ANIM_GFX_PLANT
 	anim_sound 16, 2, SFX_VINE_WHIP
@@ -1160,6 +1181,7 @@ BattleAnim_LeechSeed:
 	anim_wait 128
 	anim_ret
 
+BattleAnim_MagicalLeaf:
 BattleAnim_RazorLeaf:
 	anim_1gfx ANIM_GFX_PLANT
 	anim_sound 0, 0, SFX_VINE_WHIP
@@ -1337,6 +1359,7 @@ BattleAnim_Sonicboom_JP: ; unreferenced
 	anim_wait 16
 	anim_ret
 
+BattleAnim_FairyWind:
 BattleAnim_Gust:
 BattleAnim_Sonicboom:
 	anim_2gfx ANIM_GFX_WIND, ANIM_GFX_HIT
@@ -1433,6 +1456,9 @@ BattleAnim_RockSlide:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_DisarmVoice:
+BattleAnim_EchoedVoice:
+BattleAnim_Uproar:
 BattleAnim_Sing:
 	anim_1gfx ANIM_GFX_NOISE
 	anim_sound 16, 2, SFX_SING
@@ -1451,6 +1477,7 @@ BattleAnim_Sing:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_BugBuzz:
 BattleAnim_Poisonpowder:
 BattleAnim_SleepPowder:
 BattleAnim_Spore:
@@ -1476,6 +1503,7 @@ BattleAnim_StunSpore:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_FleurCannon:
 BattleAnim_HyperBeam:
 	anim_1gfx ANIM_GFX_BEAM
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $30, $4, $10
@@ -1540,6 +1568,8 @@ BattleAnim_Cut:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_XScissor:
+BattleAnim_AirSlash:
 BattleAnim_Slash:
 	anim_1gfx ANIM_GFX_CUT
 	anim_sound 0, 1, SFX_CUT
@@ -1619,6 +1649,7 @@ BattleAnim_DoubleTeam:
 	anim_call BattleAnim_ShowMon_0
 	anim_ret
 
+BattleAnim_Roost:
 BattleAnim_Recover:
 	anim_1gfx ANIM_GFX_BUBBLE
 	anim_call BattleAnim_TargetObj_1Row
@@ -2434,6 +2465,7 @@ BattleAnim_Swift:
 	anim_wait 64
 	anim_ret
 
+BattleAnim_JetPunch:
 BattleAnim_Crabhammer:
 	anim_1gfx ANIM_GFX_HIT
 	anim_bgeffect ANIM_BG_SHAKE_SCREEN_X, $40, $2, $0
@@ -2522,6 +2554,7 @@ BattleAnim_Guillotine:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_DazzleGleam:
 BattleAnim_Flash:
 	anim_1gfx ANIM_GFX_SPEED
 	anim_sound 0, 1, SFX_FLASH
@@ -2943,6 +2976,7 @@ BattleAnim_Barrier:
 	anim_wait 32
 	anim_ret
 
+BattleAnim_AquaTail:
 BattleAnim_Waterfall:
 	anim_1gfx ANIM_GFX_HIT
 	anim_call BattleAnim_TargetObj_2Row
@@ -2966,6 +3000,7 @@ BattleAnim_Waterfall:
 	anim_wait 8
 	anim_ret
 
+BattleAnim_DarkPulse:
 BattleAnim_PsychicM:
 	anim_1gfx ANIM_GFX_PSYCHIC
 	anim_bgeffect ANIM_BG_ALTERNATE_HUES, $0, $2, $0
@@ -3190,6 +3225,7 @@ BattleAnim_Nightmare:
 	anim_wait 96
 	anim_ret
 
+BattleAnim_FlareBlitz:
 BattleAnim_FlameWheel:
 	anim_1gfx ANIM_GFX_FIRE
 .loop
@@ -3441,6 +3477,7 @@ BattleAnim_FaintAttack:
 	anim_wait 4
 	anim_ret
 
+BattleAnim_DrainingKiss:
 BattleAnim_SweetKiss:
 	anim_2gfx ANIM_GFX_OBJECTS, ANIM_GFX_ANGELS
 	anim_bgeffect ANIM_BG_CYCLE_MID_OBPALS_GRAY_AND_YELLOW, $0, $2, $0
@@ -4276,6 +4313,7 @@ BattleAnim_Synthesis:
 	anim_call BattleAnimSub_Glimmer2
 	anim_ret
 
+BattleAnim_IceFang:
 BattleAnim_Crunch:
 	anim_2gfx ANIM_GFX_CUT, ANIM_GFX_HIT
 	anim_bgp $1b

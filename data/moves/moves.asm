@@ -269,4 +269,23 @@ Moves1:
 	move EFFECT_DEFENSE_DOWN_HIT,   20, FIGHTING,      100, 15,  50      ;ROCK_SMASH
 	move EFFECT_TRAP_TARGET,        15, WATER,          70, 15,   0      ;WHIRLPOOL
 	move EFFECT_BEAT_UP,            10, DARK,          100, 10,   0      ;BEAT_UP
+	move EFFECT_NORMAL_HIT,         40, FAIRY,         100, 30,   0      ;FAIRY_WIND
+	move EFFECT_ALWAYS_HIT,         60, GRASS,         100, 20,   0      ;MAGICAL_LEAF
+	move EFFECT_NORMAL_HIT,         80, FAIRY,         100, 10,   0      ;DAZZLE_GLEAM
+	move EFFECT_NORMAL_HIT,         80, GRASS,         100, 15,   0      ;SEED_BOMB
+	move EFFECT_RECOIL_HIT,        120, FIRE,          100, 15,   0      ;FLARE_BLITZ
+	move EFFECT_PRIORITY_HIT,       60, WATER,         100, 15,   0      ;JET_PUNCH
+	move EFFECT_FREEZE_HIT,         65, ICE,            95, 15,  30      ;ICE_FANG
+	move EFFECT_NORMAL_HIT,         90, WATER,          90, 10,   0      ;AQUA_TAIL
+	move EFFECT_ALWAYS_HIT,         40, FAIRY,         100, 15,   0      ;DISARM_VOICE
+	move EFFECT_FURY_CUTTER,        40, NORMAL,        100, 15,   0      ;ECHOED_VOICE
+	move EFFECT_RAMPAGE,            90, NORMAL,         90, 10,   0      ;UPROAR
+	move EFFECT_FLINCH_HIT,         75, FLYING,         95, 15,  30      ;AIR_SLASH
+	move EFFECT_HEAL,                0, FLYING,          0,  5,   0      ;ROOST
+	move EFFECT_TRAP_TARGET,        20, BUG,           100, 20,   0      ;INFESTATION
+	move EFFECT_DEFENSE_DOWN_HIT,   90, BUG,           100, 10,   0      ;BUG_BUZZ
+	move EFFECT_FLINCH_HIT,         80, DARK,          100, 15,  30      ;DARK_PULSE
+	move EFFECT_NORMAL_HIT,         80, BUG,           100, 15,   0      ;X_SCISSOR
+	move EFFECT_LEECH_HIT,          50, FAIRY,         100, 10,   0      ;DRAININGKISS
+	move EFFECT_ATTACK_DOWN_HIT,   130, FAIRY,          90,  5, 100      ;FLEUR_CANNON
 .IndirectEnd::

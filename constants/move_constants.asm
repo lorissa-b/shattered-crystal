@@ -257,6 +257,25 @@
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
+	const FAIRY_WIND   ; fc
+	const MAGICAL_LEAF ; fd
+	const DAZZLE_GLEAM ; fe
+	const SEED_BOMB    ; ff
+	const FLARE_BLITZ  ; 000
+	const JET_PUNCH    ; 001
+	const ICE_FANG     ; 002
+	const AQUA_TAIL    ; 003
+	const DISARM_VOICE ; 004
+	const ECHOED_VOICE ; 005
+	const UPROAR       ; 006
+	const AIR_SLASH    ; 007
+	const ROOST        ; 008
+	const INFESTATION  ; 009
+	const BUG_BUZZ     ; 00a
+	const DARK_PULSE   ; 00b
+	const X_SCISSOR    ; 00c
+	const DRAININGKISS ; 00d
+	const FLEUR_CANNON ; 00f
 DEF NUM_ATTACKS EQU const_value - 1
 
 	if NUM_ATTACKS > $3fff

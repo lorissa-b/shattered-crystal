@@ -256,11 +256,49 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw FairyWindDescription
+	dw MagicalLeafDescription
+	dw DazzleGleamDescription
+	dw SeedBombDescription
+	dw FlareBlitzDescription
+	dw JetPunchDescription
+	dw IceFangDescription
+	dw AquaTailDescription
+	dw DisarmVoiceDescription
+	dw EchoedVoiceDescription
+	dw UproarDescription
+	dw AirSlashDescription
+	dw RoostDescription
+	dw InfestationDescription
+	dw BugBuzzDescription
+	dw DarkPulseDescription
+	dw XScissorDescription
+	dw DrainingKissDescription
+	dw FleurCannonDescription
 .IndirectEnd::
 
 InvalidMoveDescription:
 	db "?@"
 
+FleurCannonDescription:
+DrainingKissDescription:
+DarkPulseDescription:
+XScissorDescription:
+InfestationDescription:
+BugBuzzDescription:
+DisarmVoiceDescription:
+EchoedVoiceDescription:
+UproarDescription:
+AirSlashDescription:
+RoostDescription:
+FairyWindDescription:
+MagicalLeafDescription:
+DazzleGleamDescription:
+SeedBombDescription:
+FlareBlitzDescription:
+JetPunchDescription:
+IceFangDescription:
+AquaTailDescription:
 PoundDescription:
 	db   "Pounds with fore-"
 	next "legs or tail.@"
