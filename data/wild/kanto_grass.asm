@@ -170,34 +170,6 @@ KantoGrassWildMons:
 	dbw 23, SLOWPOKE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_5
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 13, PIDGEY
-	dbw 13, SNUBBULL
-	dbw 15, PIDGEOTTO
-	dbw 12, ABRA
-	dbw 14, JIGGLYPUFF
-	dbw 14, ABRA
-	dbw 14, ABRA
-	; day
-	dbw 13, PIDGEY
-	dbw 13, SNUBBULL
-	dbw 15, PIDGEOTTO
-	dbw 12, ABRA
-	dbw 14, JIGGLYPUFF
-	dbw 14, ABRA
-	dbw 14, ABRA
-	; nite
-	dbw 13, HOOTHOOT
-	dbw 13, MEOWTH
-	dbw 15, NOCTOWL
-	dbw 12, ABRA
-	dbw 14, JIGGLYPUFF
-	dbw 14, ABRA
-	dbw 14, ABRA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_26
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

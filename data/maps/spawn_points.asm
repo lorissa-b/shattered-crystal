@@ -11,7 +11,6 @@ SpawnPoints:
 	spawn PLAYERS_HOUSE_2F,            3,  3
 	spawn CHERRYGROVE_POKECENTER_1F,   5,  3
 
-	spawn SAFFRON_CITY,                9, 30
 	spawn ROUTE_23,                    9,  6
 
 	spawn NEW_BARK_TOWN,              13,  6

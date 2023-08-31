@@ -36,7 +36,7 @@ MapGroupRoofs:
 	db ROOF_OLIVINE   ; 22 (Cianwood)
 	; 23 (Viridian)
 	db ROOF_NEW_BARK  ; 24 (New Bark)
-	db -1             ; 25
+	; Saffron
 	db ROOF_NEW_BARK  ; 26 (Cherrygrove)
 	assert_table_length NUM_MAP_GROUPS + 1
 

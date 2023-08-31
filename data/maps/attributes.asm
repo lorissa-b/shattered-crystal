@@ -229,12 +229,6 @@ ENDM
 	connection south, Route29, ROUTE_29, -10
 	connection east, Route45, ROUTE_45, -36
 
-	map_attributes SaffronCity, SAFFRON_CITY, $0f, NORTH
-	connection north, Route5, ROUTE_5, 5
-
-	map_attributes Route5, ROUTE_5, $0f, SOUTH
-	connection south, SaffronCity, SAFFRON_CITY, -5
-
 	map_attributes Route23, ROUTE_23, $0f, 0
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $00, 0
 	map_attributes SproutTower2F, SPROUT_TOWER_2F, $00, 0
@@ -450,19 +444,6 @@ ENDM
 	map_attributes DayOfWeekSiblingsHouse, DAY_OF_WEEK_SIBLINGS_HOUSE, $00, 0
 	map_attributes Route27SandstormHouse, ROUTE_27_SANDSTORM_HOUSE, $00, 0
 	map_attributes Route29Route46Gate, ROUTE_29_ROUTE_46_GATE, $00, 0
-	map_attributes FightingDojo, FIGHTING_DOJO, $00, 0
-	map_attributes SaffronGym, SAFFRON_GYM, $00, 0
-	map_attributes SaffronMart, SAFFRON_MART, $00, 0
-	map_attributes SaffronPokecenter1F, SAFFRON_POKECENTER_1F, $00, 0
-	map_attributes SaffronPokecenter2FBeta, SAFFRON_POKECENTER_2F_BETA, $00, 0
-	map_attributes MrPsychicsHouse, MR_PSYCHICS_HOUSE, $00, 0
-	map_attributes SaffronMagnetTrainStation, SAFFRON_MAGNET_TRAIN_STATION, $00, 0
-	map_attributes SilphCo1F, SILPH_CO_1F, $00, 0
-	map_attributes CopycatsHouse1F, COPYCATS_HOUSE_1F, $00, 0
-	map_attributes CopycatsHouse2F, COPYCATS_HOUSE_2F, $00, 0
-	map_attributes Route5UndergroundPathEntrance, ROUTE_5_UNDERGROUND_PATH_ENTRANCE, $00, 0
-	map_attributes Route5SaffronGate, ROUTE_5_SAFFRON_GATE, $00, 0
-	map_attributes Route5CleanseTagHouse, ROUTE_5_CLEANSE_TAG_HOUSE, $00, 0
 	map_attributes CherrygroveMart, CHERRYGROVE_MART, $00, 0
 	map_attributes CherrygrovePokecenter1F, CHERRYGROVE_POKECENTER_1F, $00, 0
 	map_attributes CherrygroveGymSpeechHouse, CHERRYGROVE_GYM_SPEECH_HOUSE, $00, 0

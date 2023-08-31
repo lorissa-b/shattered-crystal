@@ -12,11 +12,6 @@ SaffronCity_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, SaffronCityFlypointCallback
-
-SaffronCityFlypointCallback:
-	setflag ENGINE_FLYPOINT_SAFFRON
-	endcallback
 
 SaffronCityLass1Script:
 	faceplayer
