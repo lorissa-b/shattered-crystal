@@ -181,26 +181,6 @@ ENDM
 	map_const BLACKTHORN_CITY,                             20, 18 ; 10
 	endgroup
 
-	newgroup CERULEAN                                             ;  7
-	map_const CERULEAN_GYM_BADGE_SPEECH_HOUSE,              4,  4 ;  1
-	map_const CERULEAN_POLICE_STATION,                      4,  4 ;  2
-	map_const CERULEAN_TRADE_SPEECH_HOUSE,                  4,  4 ;  3
-	map_const CERULEAN_POKECENTER_1F,                       5,  4 ;  4
-	map_const CERULEAN_POKECENTER_2F_BETA,                  8,  4 ;  5
-	map_const CERULEAN_GYM,                                 5,  8 ;  6
-	map_const CERULEAN_MART,                                6,  4 ;  7
-	map_const ROUTE_10_POKECENTER_1F,                       5,  4 ;  8
-	map_const ROUTE_10_POKECENTER_2F_BETA,                  8,  4 ;  9
-	map_const POWER_PLANT,                                 10,  9 ; 10
-	map_const BILLS_HOUSE,                                  4,  4 ; 11
-	map_const ROUTE_4,                                     20,  9 ; 12
-	map_const ROUTE_9,                                     30,  9 ; 13
-	map_const ROUTE_10_NORTH,                              10,  9 ; 14
-	map_const ROUTE_24,                                    10,  9 ; 15
-	map_const ROUTE_25,                                    30,  9 ; 16
-	map_const CERULEAN_CITY,                               20, 18 ; 17
-	endgroup
-
 	newgroup AZALEA                                               ;  8
 	map_const AZALEA_POKECENTER_1F,                         5,  4 ;  1
 	map_const CHARCOAL_KILN,                                4,  4 ;  2
@@ -490,4 +470,4 @@ ENDM
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 25
+DEF NUM_MAP_GROUPS EQU const_value ; 24

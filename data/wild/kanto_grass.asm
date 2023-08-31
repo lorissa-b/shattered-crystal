@@ -254,34 +254,6 @@ KantoGrassWildMons:
 	dbw 6, CLEFAIRY
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_4
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 5, SPEAROW
-	dbw 5, RATTATA
-	dbw 8, EKANS
-	dbw 10, RATICATE
-	dbw 10, ARBOK
-	dbw 10, SANDSHREW
-	dbw 10, SANDSHREW
-	; day
-	dbw 5, SPEAROW
-	dbw 5, RATTATA
-	dbw 8, EKANS
-	dbw 10, RATICATE
-	dbw 10, ARBOK
-	dbw 10, SANDSHREW
-	dbw 10, SANDSHREW
-	; nite
-	dbw 5, RATTATA
-	dbw 10, RATTATA
-	dbw 10, RATICATE
-	dbw 6, ZUBAT
-	dbw 5, RATTATA
-	dbw 6, CLEFAIRY
-	dbw 6, CLEFAIRY
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -392,62 +364,6 @@ KantoGrassWildMons:
 	dbw 16, JIGGLYPUFF
 	dbw 18, KADABRA
 	dbw 18, KADABRA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_9
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 15, RATTATA
-	dbw 15, SPEAROW
-	dbw 15, RATICATE
-	dbw 15, FEAROW
-	dbw 15, FEAROW
-	dbw 18, MAROWAK
-	dbw 18, MAROWAK
-	; day
-	dbw 15, RATTATA
-	dbw 15, SPEAROW
-	dbw 15, RATICATE
-	dbw 15, FEAROW
-	dbw 15, FEAROW
-	dbw 18, MAROWAK
-	dbw 18, MAROWAK
-	; nite
-	dbw 15, RATTATA
-	dbw 15, VENONAT
-	dbw 15, RATICATE
-	dbw 15, VENOMOTH
-	dbw 15, ZUBAT
-	dbw 18, RATICATE
-	dbw 18, RATICATE
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_10_NORTH
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 15, SPEAROW
-	dbw 17, VOLTORB
-	dbw 15, RATICATE
-	dbw 15, FEAROW
-	dbw 15, MAROWAK
-	dbw 16, ELECTABUZZ
-	dbw 16, ELECTABUZZ
-	; day
-	dbw 15, SPEAROW
-	dbw 17, VOLTORB
-	dbw 15, RATICATE
-	dbw 15, FEAROW
-	dbw 15, MAROWAK
-	dbw 18, ELECTABUZZ
-	dbw 18, ELECTABUZZ
-	; nite
-	dbw 15, VENONAT
-	dbw 17, VOLTORB
-	dbw 15, RATICATE
-	dbw 15, VENOMOTH
-	dbw 15, ZUBAT
-	dbw 16, ELECTABUZZ
-	dbw 16, ELECTABUZZ
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_11
@@ -672,62 +588,6 @@ KantoGrassWildMons:
 	dbw 6, RATTATA
 	dbw 7, RATTATA
 	dbw 7, RATTATA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_24
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 8, CATERPIE
-	dbw 10, CATERPIE
-	dbw 12, METAPOD
-	dbw 12, ABRA
-	dbw 10, BELLSPROUT
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
-	; day
-	dbw 8, CATERPIE
-	dbw 12, SUNKERN
-	dbw 10, CATERPIE
-	dbw 12, ABRA
-	dbw 10, BELLSPROUT
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
-	; nite
-	dbw 10, VENONAT
-	dbw 10, ODDISH
-	dbw 12, ODDISH
-	dbw 12, ABRA
-	dbw 10, BELLSPROUT
-	dbw 14, GLOOM
-	dbw 14, GLOOM
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_25
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 10, CATERPIE
-	dbw 10, PIDGEY
-	dbw 12, PIDGEOTTO
-	dbw 12, METAPOD
-	dbw 10, BELLSPROUT
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
-	; day
-	dbw 10, CATERPIE
-	dbw 10, PIDGEY
-	dbw 12, PIDGEOTTO
-	dbw 12, METAPOD
-	dbw 10, BELLSPROUT
-	dbw 14, BUTTERFREE
-	dbw 14, BUTTERFREE
-	; nite
-	dbw 10, ODDISH
-	dbw 10, HOOTHOOT
-	dbw 10, VENONAT
-	dbw 12, NOCTOWL
-	dbw 10, BELLSPROUT
-	dbw 14, NOCTOWL
-	dbw 14, NOCTOWL
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_26

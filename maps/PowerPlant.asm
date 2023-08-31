@@ -146,7 +146,6 @@ PowerPlantManager:
 	setevent EVENT_MET_MANAGER_AT_POWER_PLANT
 	clearevent EVENT_CERULEAN_GYM_ROCKET
 	clearevent EVENT_FOUND_MACHINE_PART_IN_CERULEAN_GYM
-	setmapscene CERULEAN_GYM, SCENE_CERULEANGYM_GRUNT_RUNS_OUT
 	setscene SCENE_POWERPLANT_GUARD_GETS_PHONE_CALL
 	end
 
@@ -390,9 +389,7 @@ PowerPlant_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2, 17, ROUTE_10_NORTH, 2
-	warp_event  3, 17, ROUTE_10_NORTH, 2
-
+	
 	def_coord_events
 	coord_event  5, 12, SCENE_POWERPLANT_GUARD_GETS_PHONE_CALL, PowerPlantGuardPhoneScript
 

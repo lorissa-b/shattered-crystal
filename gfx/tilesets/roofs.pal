@@ -22,10 +22,6 @@
 	RGB 11,10,16, 05,06,07 ; morn/day
 	RGB 03,04,08, 00,00,00 ; nite
 
-; group 7 (Cerulean)
-	RGB 17,27,31, 05,15,31 ; morn/day
-	RGB 07,08,22, 07,07,16 ; nite
-
 ; group 8 (Azalea)
 	RGB 22,20,10, 17,14,03 ; morn/day
 	RGB 11,11,05, 10,09,07 ; nite

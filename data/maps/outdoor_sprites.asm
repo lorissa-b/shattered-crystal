@@ -9,7 +9,6 @@ OutdoorSprites:
 	dw DungeonsGroupSprites
 	dw EcruteakGroupSprites
 	dw BlackthornGroupSprites
-	dw CeruleanGroupSprites
 	dw AzaleaGroupSprites
 	dw LakeOfRageGroupSprites
 	dw VioletGroupSprites
@@ -105,31 +104,6 @@ PewterGroupSprites:
 	db SPRITE_SWIMMER_GUY
 	db SPRITE_POKE_BALL
 	db SPRITE_FRUIT_TREE
-
-CeruleanGroupSprites:
-	db SPRITE_SUICUNE
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_FAMICOM
-	db SPRITE_POKEDEX
-	db SPRITE_WILL
-	db SPRITE_KAREN
-	db SPRITE_NURSE
-	db SPRITE_OLD_LINK_RECEPTIONIST
-	db SPRITE_BIG_LAPRAS
-	db SPRITE_BIG_ONIX
-	db SPRITE_SUDOWOODO
-	db SPRITE_BIG_SNORLAX
-	db SPRITE_COOLTRAINER_M
-	db SPRITE_SUPER_NERD
-	db SPRITE_COOLTRAINER_F
-	db SPRITE_FISHER
-	db SPRITE_YOUNGSTER
-	db SPRITE_LASS
-	db SPRITE_POKEFAN_M
-	db SPRITE_ROCKET
-	db SPRITE_MISTY
-	db SPRITE_POKE_BALL
-	db SPRITE_SLOWPOKE
 
 SaffronGroupSprites:
 	db SPRITE_SUICUNE

@@ -47,8 +47,6 @@ CeruleanGymGruntRunsOutScript:
 	clearevent EVENT_ROUTE_24_ROCKET
 	clearevent EVENT_ROUTE_25_MISTY_BOYFRIEND
 	setscene SCENE_CERULEANGYM_NOOP
-	setmapscene ROUTE_25, SCENE_ROUTE25_MISTYS_DATE
-	setmapscene POWER_PLANT, SCENE_POWERPLANT_NOOP
 	waitsfx
 	special RestartMapMusic
 	pause 15
@@ -364,15 +362,10 @@ CeruleanGym_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  4, 15, CERULEAN_CITY, 5
-	warp_event  5, 15, CERULEAN_CITY, 5
 
 	def_coord_events
 
 	def_bg_events
-	bg_event  3,  8, BGEVENT_ITEM, CeruleanGymHiddenMachinePart
-	bg_event  2, 13, BGEVENT_READ, CeruleanGymStatue1
-	bg_event  6, 13, BGEVENT_READ, CeruleanGymStatue2
 
 	def_object_events
 	object_event  4, 10, SPRITE_ROCKET, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ObjectEvent, EVENT_CERULEAN_GYM_ROCKET
