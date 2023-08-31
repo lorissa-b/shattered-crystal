@@ -16,13 +16,6 @@ KantoWaterWildMons:
 	dbw 35, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_22
-	db 2 percent ; encounter rate
-	dbw 10, POLIWAG
-	dbw 5, POLIWAG
-	dbw 10, POLIWHIRL
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_26
 	db 6 percent ; encounter rate
 	dbw 30, TENTACOOL
@@ -42,13 +35,6 @@ KantoWaterWildMons:
 	dbw 40, POLIWAG
 	dbw 35, POLIWAG
 	dbw 40, POLIWHIRL
-	end_water_wildmons
-
-	def_water_wildmons VIRIDIAN_CITY
-	db 2 percent ; encounter rate
-	dbw 10, POLIWAG
-	dbw 5, POLIWAG
-	dbw 10, POLIWHIRL
 	end_water_wildmons
 
 	db -1 ; end

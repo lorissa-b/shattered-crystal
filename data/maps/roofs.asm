@@ -34,7 +34,7 @@ MapGroupRoofs:
 	db -1             ; 20
 	; 21 (Celadon)
 	db ROOF_OLIVINE   ; 22 (Cianwood)
-	db -1             ; 23
+	; 23 (Viridian)
 	db ROOF_NEW_BARK  ; 24 (New Bark)
 	db -1             ; 25
 	db ROOF_NEW_BARK  ; 26 (Cherrygrove)

@@ -170,34 +170,6 @@ KantoGrassWildMons:
 	dbw 23, SLOWPOKE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_2
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 3, CATERPIE
-	dbw 3, LEDYBA
-	dbw 5, PIDGEY
-	dbw 7, BUTTERFREE
-	dbw 7, LEDIAN
-	dbw 4, PIKACHU
-	dbw 4, PIKACHU
-	; day
-	dbw 3, CATERPIE
-	dbw 3, PIDGEY
-	dbw 5, PIDGEY
-	dbw 7, BUTTERFREE
-	dbw 7, PIDGEOTTO
-	dbw 4, PIKACHU
-	dbw 4, PIKACHU
-	; nite
-	dbw 3, HOOTHOOT
-	dbw 3, SPINARAK
-	dbw 5, HOOTHOOT
-	dbw 7, NOCTOWL
-	dbw 7, ARIADOS
-	dbw 4, NOCTOWL
-	dbw 4, NOCTOWL
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -224,34 +196,6 @@ KantoGrassWildMons:
 	dbw 14, JIGGLYPUFF
 	dbw 14, ABRA
 	dbw 14, ABRA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_22
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 3, RATTATA
-	dbw 3, SPEAROW
-	dbw 5, SPEAROW
-	dbw 4, DODUO
-	dbw 6, PONYTA
-	dbw 7, FEAROW
-	dbw 7, FEAROW
-	; day
-	dbw 3, RATTATA
-	dbw 3, SPEAROW
-	dbw 5, SPEAROW
-	dbw 4, DODUO
-	dbw 6, PONYTA
-	dbw 7, FEAROW
-	dbw 7, FEAROW
-	; nite
-	dbw 3, RATTATA
-	dbw 3, POLIWAG
-	dbw 5, RATTATA
-	dbw 4, POLIWAG
-	dbw 6, RATTATA
-	dbw 7, RATTATA
-	dbw 7, RATTATA
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_26

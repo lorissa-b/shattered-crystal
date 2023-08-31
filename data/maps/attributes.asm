@@ -229,16 +229,6 @@ ENDM
 	connection south, Route29, ROUTE_29, -10
 	connection east, Route45, ROUTE_45, -36
 
-	map_attributes Route2, ROUTE_2, $0f, SOUTH
-	connection south, ViridianCity, VIRIDIAN_CITY, -5
-
-	map_attributes ViridianCity, VIRIDIAN_CITY, $0f, NORTH | WEST
-	connection north, Route2, ROUTE_2, 5
-	connection west, Route22, ROUTE_22, 4
-
-	map_attributes Route22, ROUTE_22, $2c, EAST
-	connection east, ViridianCity, VIRIDIAN_CITY, -4
-
 	map_attributes SaffronCity, SAFFRON_CITY, $0f, NORTH
 	connection north, Route5, ROUTE_5, 5
 
@@ -450,15 +440,6 @@ ENDM
 	map_attributes BattleTowerHallway, BATTLE_TOWER_HALLWAY, $00, 0
 	map_attributes Route40BattleTowerGate, ROUTE_40_BATTLE_TOWER_GATE, $00, 0
 	map_attributes BattleTowerOutside, BATTLE_TOWER_OUTSIDE, $05, 0
-	map_attributes ViridianGym, VIRIDIAN_GYM, $00, 0
-	map_attributes ViridianNicknameSpeechHouse, VIRIDIAN_NICKNAME_SPEECH_HOUSE, $00, 0
-	map_attributes TrainerHouse1F, TRAINER_HOUSE_1F, $00, 0
-	map_attributes TrainerHouseB1F, TRAINER_HOUSE_B1F, $00, 0
-	map_attributes ViridianMart, VIRIDIAN_MART, $00, 0
-	map_attributes ViridianPokecenter1F, VIRIDIAN_POKECENTER_1F, $00, 0
-	map_attributes ViridianPokecenter2FBeta, VIRIDIAN_POKECENTER_2F_BETA, $00, 0
-	map_attributes Route2NuggetHouse, ROUTE_2_NUGGET_HOUSE, $00, 0
-	map_attributes Route2Gate, ROUTE_2_GATE, $00, 0
 	map_attributes VictoryRoadGate, VICTORY_ROAD_GATE, $00, 0
 	map_attributes ElmsLab, ELMS_LAB, $00, 0
 	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0

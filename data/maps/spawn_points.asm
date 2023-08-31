@@ -9,9 +9,8 @@ SpawnPoints:
 	table_width 4, SpawnPoints
 
 	spawn PLAYERS_HOUSE_2F,            3,  3
-	spawn VIRIDIAN_POKECENTER_1F,      5,  3
+	spawn CHERRYGROVE_POKECENTER_1F,   5,  3
 
-	spawn VIRIDIAN_CITY,              23, 26
 	spawn SAFFRON_CITY,                9, 30
 	spawn ROUTE_23,                    9,  6
 
