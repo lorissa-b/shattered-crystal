@@ -16,13 +16,6 @@ KantoWaterWildMons:
 	dbw 35, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_12
-	db 6 percent ; encounter rate
-	dbw 25, TENTACOOL
-	dbw 25, QUAGSIRE
-	dbw 25, TENTACRUEL
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_22
 	db 2 percent ; encounter rate
 	dbw 10, POLIWAG

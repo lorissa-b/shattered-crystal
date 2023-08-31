@@ -29,7 +29,7 @@ MapGroupRoofs:
 	db -1             ; 15
 	db -1             ; 16
 	; 17 (Fuchsia)
-	db -1             ; 18
+	; 18 (Lavender)
 	db ROOF_NEW_BARK  ; 19 (Silver Cave)
 	db -1             ; 20
 	db -1             ; 21

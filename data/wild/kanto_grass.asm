@@ -254,34 +254,6 @@ KantoGrassWildMons:
 	dbw 16, ABRA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_8
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 17, SNUBBULL
-	dbw 19, PIDGEOTTO
-	dbw 16, ABRA
-	dbw 17, GROWLITHE
-	dbw 16, JIGGLYPUFF
-	dbw 18, KADABRA
-	dbw 18, KADABRA
-	; day
-	dbw 17, SNUBBULL
-	dbw 19, PIDGEOTTO
-	dbw 16, ABRA
-	dbw 17, GROWLITHE
-	dbw 16, JIGGLYPUFF
-	dbw 18, KADABRA
-	dbw 18, KADABRA
-	; nite
-	dbw 17, MEOWTH
-	dbw 20, NOCTOWL
-	dbw 16, ABRA
-	dbw 17, HAUNTER
-	dbw 16, JIGGLYPUFF
-	dbw 18, KADABRA
-	dbw 18, KADABRA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_16
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

@@ -254,28 +254,12 @@ ENDM
 	connection west, CeladonCity, CELADON_CITY, -5
 	connection east, SaffronCity, SAFFRON_CITY, -9
 
-	map_attributes Route12, ROUTE_12, $43, NORTH
-	connection north, LavenderTown, LAVENDER_TOWN, 0
-
-	map_attributes LavenderTown, LAVENDER_TOWN, $2c, NORTH | SOUTH | WEST
-	connection north, Route10South, ROUTE_10_SOUTH, 0
-	connection south, Route12, ROUTE_12, 0
-	connection west, Route8, ROUTE_8, 0
-
-	map_attributes SaffronCity, SAFFRON_CITY, $0f, NORTH | WEST | EAST
+	map_attributes SaffronCity, SAFFRON_CITY, $0f, NORTH | WEST
 	connection north, Route5, ROUTE_5, 5
 	connection west, Route7, ROUTE_7, 9
-	connection east, Route8, ROUTE_8, 9
 
 	map_attributes Route5, ROUTE_5, $0f, SOUTH
 	connection south, SaffronCity, SAFFRON_CITY, -5
-
-	map_attributes Route8, ROUTE_8, $2c, WEST | EAST
-	connection west, SaffronCity, SAFFRON_CITY, -9
-	connection east, LavenderTown, LAVENDER_TOWN, 0
-
-	map_attributes Route10South, ROUTE_10_SOUTH, $2c, SOUTH
-	connection south, LavenderTown, LAVENDER_TOWN, 0
 
 	map_attributes Route23, ROUTE_23, $0f, 0
 	map_attributes SproutTower1F, SPROUT_TOWER_1F, $00, 0
@@ -461,16 +445,6 @@ ENDM
 	map_attributes KarensRoom, KARENS_ROOM, $00, 0
 	map_attributes LancesRoom, LANCES_ROOM, $00, 0
 	map_attributes HallOfFame, HALL_OF_FAME, $00, 0
-	map_attributes LavenderPokecenter1F, LAVENDER_POKECENTER_1F, $00, 0
-	map_attributes LavenderPokecenter2FBeta, LAVENDER_POKECENTER_2F_BETA, $00, 0
-	map_attributes MrFujisHouse, MR_FUJIS_HOUSE, $00, 0
-	map_attributes LavenderSpeechHouse, LAVENDER_SPEECH_HOUSE, $00, 0
-	map_attributes LavenderNameRater, LAVENDER_NAME_RATER, $00, 0
-	map_attributes LavenderMart, LAVENDER_MART, $00, 0
-	map_attributes SoulHouse, SOUL_HOUSE, $00, 0
-	map_attributes LavRadioTower1F, LAV_RADIO_TOWER_1F, $00, 0
-	map_attributes Route8SaffronGate, ROUTE_8_SAFFRON_GATE, $00, 0
-	map_attributes Route12SuperRodHouse, ROUTE_12_SUPER_ROD_HOUSE, $00, 0
 	map_attributes SilverCavePokecenter1F, SILVER_CAVE_POKECENTER_1F, $00, 0
 	map_attributes Route28SteelWingHouse, ROUTE_28_STEEL_WING_HOUSE, $00, 0
 	map_attributes Pokecenter2F, POKECENTER_2F, $00, 0

@@ -46,10 +46,6 @@
 	RGB 21,21,21, 13,13,13 ; morn/day
 	RGB 11,11,19, 07,07,12 ; nite
 
-; group 18 (Lavender)
-	RGB 23,15,31, 16,05,31 ; morn/day
-	RGB 12,07,17, 08,06,10 ; nite
-
 ; group 19 (Silver Cave)
 	RGB 21,21,25, 16,16,16 ; morn/day
 	RGB 13,13,13, 07,07,07 ; nite
