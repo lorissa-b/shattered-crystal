@@ -239,24 +239,8 @@ ENDM
 	map_attributes Route22, ROUTE_22, $2c, EAST
 	connection east, ViridianCity, VIRIDIAN_CITY, -4
 
-	map_attributes Route17, ROUTE_17, $43, NORTH
-	connection north, Route16, ROUTE_16, 0
-
-	map_attributes Route16, ROUTE_16, $0f, SOUTH | EAST
-	connection south, Route17, ROUTE_17, 0
-	connection east, CeladonCity, CELADON_CITY, -9
-
-	map_attributes CeladonCity, CELADON_CITY, $0f, WEST | EAST
-	connection west, Route16, ROUTE_16, 9
-	connection east, Route7, ROUTE_7, 5
-
-	map_attributes Route7, ROUTE_7, $0f, WEST | EAST
-	connection west, CeladonCity, CELADON_CITY, -5
-	connection east, SaffronCity, SAFFRON_CITY, -9
-
-	map_attributes SaffronCity, SAFFRON_CITY, $0f, NORTH | WEST
+	map_attributes SaffronCity, SAFFRON_CITY, $0f, NORTH
 	connection north, Route5, ROUTE_5, 5
-	connection west, Route7, ROUTE_7, 9
 
 	map_attributes Route5, ROUTE_5, $0f, SOUTH
 	connection south, SaffronCity, SAFFRON_CITY, -5
@@ -453,28 +437,6 @@ ENDM
 	map_attributes TimeCapsule, TIME_CAPSULE, $00, 0
 	map_attributes MobileTradeRoom, MOBILE_TRADE_ROOM, $00, 0
 	map_attributes MobileBattleRoom, MOBILE_BATTLE_ROOM, $00, 0
-	map_attributes CeladonDeptStore1F, CELADON_DEPT_STORE_1F, $00, 0
-	map_attributes CeladonDeptStore2F, CELADON_DEPT_STORE_2F, $00, 0
-	map_attributes CeladonDeptStore3F, CELADON_DEPT_STORE_3F, $00, 0
-	map_attributes CeladonDeptStore4F, CELADON_DEPT_STORE_4F, $00, 0
-	map_attributes CeladonDeptStore5F, CELADON_DEPT_STORE_5F, $00, 0
-	map_attributes CeladonDeptStore6F, CELADON_DEPT_STORE_6F, $00, 0
-	map_attributes CeladonDeptStoreElevator, CELADON_DEPT_STORE_ELEVATOR, $00, 0
-	map_attributes CeladonMansion1F, CELADON_MANSION_1F, $00, 0
-	map_attributes CeladonMansion2F, CELADON_MANSION_2F, $00, 0
-	map_attributes CeladonMansion3F, CELADON_MANSION_3F, $00, 0
-	map_attributes CeladonMansionRoof, CELADON_MANSION_ROOF, $01, 0
-	map_attributes CeladonMansionRoofHouse, CELADON_MANSION_ROOF_HOUSE, $00, 0
-	map_attributes CeladonPokecenter1F, CELADON_POKECENTER_1F, $00, 0
-	map_attributes CeladonPokecenter2FBeta, CELADON_POKECENTER_2F_BETA, $00, 0
-	map_attributes CeladonGameCorner, CELADON_GAME_CORNER, $00, 0
-	map_attributes CeladonGameCornerPrizeRoom, CELADON_GAME_CORNER_PRIZE_ROOM, $00, 0
-	map_attributes CeladonGym, CELADON_GYM, $00, 0
-	map_attributes CeladonCafe, CELADON_CAFE, $00, 0
-	map_attributes Route16FuchsiaSpeechHouse, ROUTE_16_FUCHSIA_SPEECH_HOUSE, $00, 0
-	map_attributes Route16Gate, ROUTE_16_GATE, $00, 0
-	map_attributes Route7SaffronGate, ROUTE_7_SAFFRON_GATE, $00, 0
-	map_attributes Route17Route18Gate, ROUTE_17_ROUTE_18_GATE, $00, 0
 	map_attributes ManiasHouse, MANIAS_HOUSE, $00, 0
 	map_attributes CianwoodGym, CIANWOOD_GYM, $00, 0
 	map_attributes CianwoodPokecenter1F, CIANWOOD_POKECENTER_1F, $00, 0

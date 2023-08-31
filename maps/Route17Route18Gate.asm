@@ -55,8 +55,6 @@ Route17Route18Gate_MapEvents:
 	def_warp_events
 
 	def_coord_events
-	coord_event  5,  4, SCENE_ROUTE17ROUTE18GATE_BICYCLE_CHECK, Route17Route18GateBicycleCheck
-	coord_event  5,  5, SCENE_ROUTE17ROUTE18GATE_BICYCLE_CHECK, Route17Route18GateBicycleCheck
 
 	def_bg_events
 

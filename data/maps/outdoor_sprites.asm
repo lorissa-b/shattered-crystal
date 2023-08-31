@@ -17,7 +17,6 @@ OutdoorSprites:
 	dw IndigoGroupSprites
 	dw SilverGroupSprites
 	dw CableClubGroupSprites
-	dw CeladonGroupSprites
 	dw CianwoodGroupSprites
 	dw ViridianGroupSprites
 	dw NewBarkGroupSprites
@@ -74,31 +73,6 @@ SaffronGroupSprites:
 	db SPRITE_MISTY
 	db SPRITE_POKE_BALL
 	db SPRITE_SLOWPOKE
-
-CeladonGroupSprites:
-	db SPRITE_SUICUNE
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_FAMICOM
-	db SPRITE_POKEDEX
-	db SPRITE_WILL
-	db SPRITE_KAREN
-	db SPRITE_NURSE
-	db SPRITE_OLD_LINK_RECEPTIONIST
-	db SPRITE_BIG_LAPRAS
-	db SPRITE_BIG_ONIX
-	db SPRITE_SUDOWOODO
-	db SPRITE_BIG_SNORLAX
-	db SPRITE_FISHER
-	db SPRITE_POLIWAG
-	db SPRITE_TEACHER
-	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
-	db SPRITE_LASS
-	db SPRITE_BIKER
-	db SPRITE_RIVAL
-	db SPRITE_BLUE
-	db SPRITE_POKE_BALL
-	db SPRITE_FRUIT_TREE
 
 IndigoGroupSprites:
 	db SPRITE_SUICUNE

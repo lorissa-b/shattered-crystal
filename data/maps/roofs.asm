@@ -32,7 +32,7 @@ MapGroupRoofs:
 	; 18 (Lavender)
 	db ROOF_NEW_BARK  ; 19 (Silver Cave)
 	db -1             ; 20
-	db -1             ; 21
+	; 21 (Celadon)
 	db ROOF_OLIVINE   ; 22 (Cianwood)
 	db -1             ; 23
 	db ROOF_NEW_BARK  ; 24 (New Bark)

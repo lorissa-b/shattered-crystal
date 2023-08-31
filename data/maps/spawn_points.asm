@@ -13,7 +13,6 @@ SpawnPoints:
 
 	spawn VIRIDIAN_CITY,              23, 26
 	spawn SAFFRON_CITY,                9, 30
-	spawn CELADON_CITY,               29, 10
 	spawn ROUTE_23,                    9,  6
 
 	spawn NEW_BARK_TOWN,              13,  6

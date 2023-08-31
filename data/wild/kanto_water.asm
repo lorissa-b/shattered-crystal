@@ -51,11 +51,4 @@ KantoWaterWildMons:
 	dbw 10, POLIWHIRL
 	end_water_wildmons
 
-	def_water_wildmons CELADON_CITY
-	db 2 percent ; encounter rate
-	dbw 20, GRIMER
-	dbw 15, GRIMER
-	dbw 15, MUK
-	end_water_wildmons
-
 	db -1 ; end
