@@ -646,34 +646,6 @@ KantoGrassWildMons:
 	dbw 30, MUK
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_21
-	db 6 percent, 6 percent, 6 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 30, TANGELA
-	dbw 25, RATTATA
-	dbw 35, TANGELA
-	dbw 20, RATICATE
-	dbw 30, MR__MIME
-	dbw 28, MR__MIME
-	dbw 28, MR__MIME
-	; day
-	dbw 30, TANGELA
-	dbw 25, RATTATA
-	dbw 35, TANGELA
-	dbw 20, RATICATE
-	dbw 28, MR__MIME
-	dbw 30, MR__MIME
-	dbw 30, MR__MIME
-	; nite
-	dbw 30, TANGELA
-	dbw 25, RATTATA
-	dbw 35, TANGELA
-	dbw 20, RATICATE
-	dbw 30, TANGELA
-	dbw 28, TANGELA
-	dbw 28, TANGELA
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_22
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn

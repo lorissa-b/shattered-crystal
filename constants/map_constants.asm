@@ -181,17 +181,6 @@ ENDM
 	map_const BLACKTHORN_CITY,                             20, 18 ; 10
 	endgroup
 
-	newgroup CINNABAR                                             ;  6
-	map_const CINNABAR_POKECENTER_1F,                       5,  4 ;  1
-	map_const CINNABAR_POKECENTER_2F_BETA,                  8,  4 ;  2
-	map_const ROUTE_19_FUCHSIA_GATE,                        5,  4 ;  3
-	map_const SEAFOAM_GYM,                                  5,  4 ;  4
-	map_const ROUTE_19,                                    10, 18 ;  5
-	map_const ROUTE_20,                                    30,  9 ;  6
-	map_const ROUTE_21,                                    10, 18 ;  7
-	map_const CINNABAR_ISLAND,                             10,  9 ;  8
-	endgroup
-
 	newgroup CERULEAN                                             ;  7
 	map_const CERULEAN_GYM_BADGE_SPEECH_HOUSE,              4,  4 ;  1
 	map_const CERULEAN_POLICE_STATION,                      4,  4 ;  2
@@ -501,4 +490,4 @@ ENDM
 	map_const ROUTE_31_VIOLET_GATE,                         5,  4 ; 11
 	endgroup
 
-DEF NUM_MAP_GROUPS EQU const_value ; 26
+DEF NUM_MAP_GROUPS EQU const_value ; 25

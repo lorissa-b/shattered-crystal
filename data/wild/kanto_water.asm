@@ -58,27 +58,6 @@ KantoWaterWildMons:
 	dbw 25, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_19
-	db 6 percent ; encounter rate
-	dbw 35, TENTACOOL
-	dbw 30, TENTACOOL
-	dbw 35, TENTACRUEL
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_20
-	db 6 percent ; encounter rate
-	dbw 35, TENTACOOL
-	dbw 30, TENTACOOL
-	dbw 35, TENTACRUEL
-	end_water_wildmons
-
-	def_water_wildmons ROUTE_21
-	db 6 percent ; encounter rate
-	dbw 35, TENTACOOL
-	dbw 30, TENTACOOL
-	dbw 35, TENTACRUEL
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_22
 	db 2 percent ; encounter rate
 	dbw 10, POLIWAG
@@ -161,13 +140,6 @@ KantoWaterWildMons:
 	dbw 20, MAGIKARP
 	dbw 15, MAGIKARP
 	dbw 10, MAGIKARP
-	end_water_wildmons
-
-	def_water_wildmons CINNABAR_ISLAND
-	db 6 percent ; encounter rate
-	dbw 35, TENTACOOL
-	dbw 30, TENTACOOL
-	dbw 35, TENTACRUEL
 	end_water_wildmons
 
 	db -1 ; end

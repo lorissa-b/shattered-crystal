@@ -5,11 +5,6 @@ CinnabarIsland_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, CinnabarIslandFlypointCallback
-
-CinnabarIslandFlypointCallback:
-	setflag ENGINE_FLYPOINT_CINNABAR
-	endcallback
 
 CinnabarIslandBlue:
 	faceplayer
@@ -129,7 +124,6 @@ CinnabarIsland_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 11, 11, CINNABAR_POKECENTER_1F, 1
 
 	def_coord_events
 

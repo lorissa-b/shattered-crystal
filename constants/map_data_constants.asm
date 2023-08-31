@@ -85,7 +85,6 @@ DEF NUM_FISHGROUPS EQU const_value - 1
 	const SPAWN_SAFFRON
 	const SPAWN_CELADON
 	const SPAWN_FUCHSIA
-	const SPAWN_CINNABAR
 	const SPAWN_INDIGO
 ; johto
 	const SPAWN_NEW_BARK
@@ -134,7 +133,6 @@ DEF KANTO_FLYPOINT EQU const_value
 	const FLY_CELADON
 	const FLY_SAFFRON
 	const FLY_FUCHSIA
-	const FLY_CINNABAR
 	const FLY_INDIGO
 DEF NUM_FLYPOINTS EQU const_value
 

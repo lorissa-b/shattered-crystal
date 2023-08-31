@@ -249,28 +249,10 @@ ENDM
 	connection north, ViridianCity, VIRIDIAN_CITY, -10
 	connection south, PalletTown, PALLET_TOWN, 0
 
-	map_attributes PalletTown, PALLET_TOWN, $0f, NORTH | SOUTH
+	map_attributes PalletTown, PALLET_TOWN, $0f, NORTH
 	connection north, Route1, ROUTE_1, 0
-	connection south, Route21, ROUTE_21, 0
 
-	map_attributes Route21, ROUTE_21, $43, NORTH | SOUTH
-	connection north, PalletTown, PALLET_TOWN, 0
-	connection south, CinnabarIsland, CINNABAR_ISLAND, 0
-
-	map_attributes CinnabarIsland, CINNABAR_ISLAND, $43, NORTH | EAST
-	connection north, Route21, ROUTE_21, 0
-	connection east, Route20, ROUTE_20, 0
-
-	map_attributes Route20, ROUTE_20, $43, WEST | EAST
-	connection west, CinnabarIsland, CINNABAR_ISLAND, 0
-	connection east, Route19, ROUTE_19, -9
-
-	map_attributes Route19, ROUTE_19, $43, NORTH | WEST
-	connection north, FuchsiaCity, FUCHSIA_CITY, 0
-	connection west, Route20, ROUTE_20, 9
-
-	map_attributes FuchsiaCity, FUCHSIA_CITY, $0f, SOUTH | WEST | EAST
-	connection south, Route19, ROUTE_19, 0
+	map_attributes FuchsiaCity, FUCHSIA_CITY, $0f, WEST | EAST
 	connection west, Route18, ROUTE_18, 7
 	connection east, Route15, ROUTE_15, 9
 
@@ -497,10 +479,6 @@ ENDM
 	map_attributes BlackthornMart, BLACKTHORN_MART, $00, 0
 	map_attributes BlackthornPokecenter1F, BLACKTHORN_POKECENTER_1F, $00, 0
 	map_attributes MoveDeletersHouse, MOVE_DELETERS_HOUSE, $00, 0
-	map_attributes CinnabarPokecenter1F, CINNABAR_POKECENTER_1F, $00, 0
-	map_attributes CinnabarPokecenter2FBeta, CINNABAR_POKECENTER_2F_BETA, $00, 0
-	map_attributes Route19FuchsiaGate, ROUTE_19_FUCHSIA_GATE, $00, 0
-	map_attributes SeafoamGym, SEAFOAM_GYM, $09, 0
 	map_attributes CeruleanGymBadgeSpeechHouse, CERULEAN_GYM_BADGE_SPEECH_HOUSE, $00, 0
 	map_attributes CeruleanPoliceStation, CERULEAN_POLICE_STATION, $00, 0
 	map_attributes CeruleanTradeSpeechHouse, CERULEAN_TRADE_SPEECH_HOUSE, $00, 0
