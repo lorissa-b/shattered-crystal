@@ -237,20 +237,12 @@ ENDM
 	connection north, PewterCity, PEWTER_CITY, -5
 	connection south, ViridianCity, VIRIDIAN_CITY, -5
 
-	map_attributes ViridianCity, VIRIDIAN_CITY, $0f, NORTH | SOUTH | WEST
+	map_attributes ViridianCity, VIRIDIAN_CITY, $0f, NORTH | WEST
 	connection north, Route2, ROUTE_2, 5
-	connection south, Route1, ROUTE_1, 10
 	connection west, Route22, ROUTE_22, 4
 
 	map_attributes Route22, ROUTE_22, $2c, EAST
 	connection east, ViridianCity, VIRIDIAN_CITY, -4
-
-	map_attributes Route1, ROUTE_1, $0f, NORTH | SOUTH
-	connection north, ViridianCity, VIRIDIAN_CITY, -10
-	connection south, PalletTown, PALLET_TOWN, 0
-
-	map_attributes PalletTown, PALLET_TOWN, $0f, NORTH
-	connection north, Route1, ROUTE_1, 0
 
 	map_attributes FuchsiaCity, FUCHSIA_CITY, $0f, WEST | EAST
 	connection west, Route18, ROUTE_18, 7
@@ -480,10 +472,6 @@ ENDM
 	map_attributes IlexForestAzaleaGate, ILEX_FOREST_AZALEA_GATE, $00, 0
 	map_attributes Route34IlexForestGate, ROUTE_34_ILEX_FOREST_GATE, $00, 0
 	map_attributes DayCare, DAY_CARE, $00, 0
-	map_attributes RedsHouse1F, REDS_HOUSE_1F, $00, 0
-	map_attributes RedsHouse2F, REDS_HOUSE_2F, $00, 0
-	map_attributes BluesHouse, BLUES_HOUSE, $00, 0
-	map_attributes OaksLab, OAKS_LAB, $00, 0
 	map_attributes PewterNidoranSpeechHouse, PEWTER_NIDORAN_SPEECH_HOUSE, $00, 0
 	map_attributes PewterGym, PEWTER_GYM, $00, 0
 	map_attributes PewterMart, PEWTER_MART, $00, 0

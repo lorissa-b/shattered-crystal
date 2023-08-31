@@ -58,13 +58,6 @@ KantoWaterWildMons:
 	dbw 40, POLIWHIRL
 	end_water_wildmons
 
-	def_water_wildmons PALLET_TOWN
-	db 6 percent ; encounter rate
-	dbw 35, TENTACOOL
-	dbw 30, TENTACOOL
-	dbw 35, TENTACRUEL
-	end_water_wildmons
-
 	def_water_wildmons VIRIDIAN_CITY
 	db 2 percent ; encounter rate
 	dbw 10, POLIWAG

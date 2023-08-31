@@ -170,34 +170,6 @@ KantoGrassWildMons:
 	dbw 23, SLOWPOKE
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_1
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 2, PIDGEY
-	dbw 2, RATTATA
-	dbw 3, SENTRET
-	dbw 3, PIDGEY
-	dbw 6, FURRET
-	dbw 4, PIDGEY
-	dbw 4, PIDGEY
-	; day
-	dbw 2, PIDGEY
-	dbw 2, RATTATA
-	dbw 3, SENTRET
-	dbw 3, PIDGEY
-	dbw 6, FURRET
-	dbw 4, PIDGEY
-	dbw 4, PIDGEY
-	; nite
-	dbw 2, HOOTHOOT
-	dbw 2, RATTATA
-	dbw 3, RATTATA
-	dbw 3, HOOTHOOT
-	dbw 6, RATICATE
-	dbw 4, HOOTHOOT
-	dbw 4, HOOTHOOT
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_2
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
