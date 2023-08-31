@@ -9,11 +9,6 @@ PewterCity_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, PewterCityFlypointCallback
-
-PewterCityFlypointCallback:
-	setflag ENGINE_FLYPOINT_PEWTER
-	endcallback
 
 PewterCityCooltrainerFScript:
 	jumptextfaceplayer PewterCityCooltrainerFText
@@ -154,11 +149,6 @@ PewterCity_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 29, 13, PEWTER_NIDORAN_SPEECH_HOUSE, 1
-	warp_event 16, 17, PEWTER_GYM, 1
-	warp_event 23, 17, PEWTER_MART, 2
-	warp_event 13, 25, PEWTER_POKECENTER_1F, 1
-	warp_event  7, 29, PEWTER_SNOOZE_SPEECH_HOUSE, 1
 
 	def_coord_events
 

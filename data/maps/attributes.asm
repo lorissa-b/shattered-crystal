@@ -229,12 +229,7 @@ ENDM
 	connection south, Route29, ROUTE_29, -10
 	connection east, Route45, ROUTE_45, -36
 
-	map_attributes PewterCity, PEWTER_CITY, $0f, SOUTH | EAST
-	connection south, Route2, ROUTE_2, 5
-	connection east, Route3, ROUTE_3, 5
-
-	map_attributes Route2, ROUTE_2, $0f, NORTH | SOUTH
-	connection north, PewterCity, PEWTER_CITY, -5
+	map_attributes Route2, ROUTE_2, $0f, SOUTH
 	connection south, ViridianCity, VIRIDIAN_CITY, -5
 
 	map_attributes ViridianCity, VIRIDIAN_CITY, $0f, NORTH | WEST
@@ -296,9 +291,6 @@ ENDM
 
 	map_attributes Route5, ROUTE_5, $0f, SOUTH
 	connection south, SaffronCity, SAFFRON_CITY, -5
-
-	map_attributes Route3, ROUTE_3, $2c, WEST
-	connection west, PewterCity, PEWTER_CITY, -5
 
 	map_attributes Route8, ROUTE_8, $2c, WEST | EAST
 	connection west, SaffronCity, SAFFRON_CITY, -9
@@ -472,12 +464,6 @@ ENDM
 	map_attributes IlexForestAzaleaGate, ILEX_FOREST_AZALEA_GATE, $00, 0
 	map_attributes Route34IlexForestGate, ROUTE_34_ILEX_FOREST_GATE, $00, 0
 	map_attributes DayCare, DAY_CARE, $00, 0
-	map_attributes PewterNidoranSpeechHouse, PEWTER_NIDORAN_SPEECH_HOUSE, $00, 0
-	map_attributes PewterGym, PEWTER_GYM, $00, 0
-	map_attributes PewterMart, PEWTER_MART, $00, 0
-	map_attributes PewterPokecenter1F, PEWTER_POKECENTER_1F, $00, 0
-	map_attributes PewterPokecenter2FBeta, PEWTER_POKECENTER_2F_BETA, $00, 0
-	map_attributes PewterSnoozeSpeechHouse, PEWTER_SNOOZE_SPEECH_HOUSE, $00, 0
 	map_attributes OlivinePort, OLIVINE_PORT, $0a, 0
 	map_attributes VermilionPort, VERMILION_PORT, $0a, 0
 	map_attributes FastShip1F, FAST_SHIP_1F, $00, 0

@@ -25,7 +25,7 @@ MapGroupRoofs:
 	db ROOF_GOLDENROD ; 11 (Goldenrod)
 	; 12 (Vermilion)
 	; 13 (Pallet)
-	db -1             ; 14
+	; 14 (Pewter)
 	db -1             ; 15
 	db -1             ; 16
 	db -1             ; 17

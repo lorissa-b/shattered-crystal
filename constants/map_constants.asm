@@ -247,17 +247,6 @@ ENDM
 	map_const DAY_CARE,                                     5,  4 ; 24
 	endgroup
 
-	newgroup PEWTER                                               ; 14
-	map_const ROUTE_3,                                     30,  9 ;  1
-	map_const PEWTER_CITY,                                 20, 18 ;  2
-	map_const PEWTER_NIDORAN_SPEECH_HOUSE,                  4,  4 ;  3
-	map_const PEWTER_GYM,                                   5,  7 ;  4
-	map_const PEWTER_MART,                                  6,  4 ;  5
-	map_const PEWTER_POKECENTER_1F,                         5,  4 ;  6
-	map_const PEWTER_POKECENTER_2F_BETA,                    8,  4 ;  7
-	map_const PEWTER_SNOOZE_SPEECH_HOUSE,                   4,  4 ;  8
-	endgroup
-
 	newgroup FAST_SHIP                                            ; 15
 	map_const OLIVINE_PORT,                                10, 18 ;  1
 	map_const VERMILION_PORT,                              10, 18 ;  2

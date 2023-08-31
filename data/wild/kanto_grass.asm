@@ -198,34 +198,6 @@ KantoGrassWildMons:
 	dbw 4, NOCTOWL
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_3
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 5, SPEAROW
-	dbw 5, RATTATA
-	dbw 8, EKANS
-	dbw 10, RATICATE
-	dbw 10, ARBOK
-	dbw 10, SANDSHREW
-	dbw 10, SANDSHREW
-	; day
-	dbw 5, SPEAROW
-	dbw 5, RATTATA
-	dbw 8, EKANS
-	dbw 10, RATICATE
-	dbw 10, ARBOK
-	dbw 10, SANDSHREW
-	dbw 10, SANDSHREW
-	; nite
-	dbw 5, RATTATA
-	dbw 10, RATTATA
-	dbw 10, RATICATE
-	dbw 6, ZUBAT
-	dbw 5, RATTATA
-	dbw 6, CLEFAIRY
-	dbw 6, CLEFAIRY
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_5
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
