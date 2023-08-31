@@ -23,13 +23,6 @@ KantoWaterWildMons:
 	dbw 25, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_13
-	db 6 percent ; encounter rate
-	dbw 25, TENTACOOL
-	dbw 25, QUAGSIRE
-	dbw 25, TENTACRUEL
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_22
 	db 2 percent ; encounter rate
 	dbw 10, POLIWAG
@@ -70,13 +63,6 @@ KantoWaterWildMons:
 	dbw 20, GRIMER
 	dbw 15, GRIMER
 	dbw 15, MUK
-	end_water_wildmons
-
-	def_water_wildmons FUCHSIA_CITY
-	db 2 percent ; encounter rate
-	dbw 20, MAGIKARP
-	dbw 15, MAGIKARP
-	dbw 10, MAGIKARP
 	end_water_wildmons
 
 	db -1 ; end

@@ -79,8 +79,6 @@ Route18_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  6, ROUTE_17_ROUTE_18_GATE, 3
-	warp_event  2,  7, ROUTE_17_ROUTE_18_GATE, 4
 
 	def_coord_events
 

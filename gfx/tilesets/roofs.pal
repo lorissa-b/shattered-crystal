@@ -46,10 +46,6 @@
 	RGB 21,21,21, 13,13,13 ; morn/day
 	RGB 11,11,19, 07,07,12 ; nite
 
-; group 17 (Fuchsia)
-	RGB 31,18,29, 17,13,20 ; morn/day
-	RGB 14,06,12, 11,03,10 ; nite
-
 ; group 18 (Lavender)
 	RGB 23,15,31, 16,05,31 ; morn/day
 	RGB 12,07,17, 08,06,10 ; nite

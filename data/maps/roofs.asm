@@ -28,7 +28,7 @@ MapGroupRoofs:
 	; 14 (Pewter)
 	db -1             ; 15
 	db -1             ; 16
-	db -1             ; 17
+	; 17 (Fuchsia)
 	db -1             ; 18
 	db ROOF_NEW_BARK  ; 19 (Silver Cave)
 	db -1             ; 20

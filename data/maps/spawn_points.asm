@@ -15,7 +15,6 @@ SpawnPoints:
 	spawn LAVENDER_TOWN,               5,  6
 	spawn SAFFRON_CITY,                9, 30
 	spawn CELADON_CITY,               29, 10
-	spawn FUCHSIA_CITY,               19, 28
 	spawn ROUTE_23,                    9,  6
 
 	spawn NEW_BARK_TOWN,              13,  6
