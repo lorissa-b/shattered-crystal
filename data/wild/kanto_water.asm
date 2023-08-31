@@ -16,13 +16,6 @@ KantoWaterWildMons:
 	dbw 35, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons ROUTE_6
-	db 2 percent ; encounter rate
-	dbw 10, PSYDUCK
-	dbw 5, PSYDUCK
-	dbw 10, GOLDUCK
-	end_water_wildmons
-
 	def_water_wildmons ROUTE_12
 	db 6 percent ; encounter rate
 	dbw 25, TENTACOOL
@@ -77,13 +70,6 @@ KantoWaterWildMons:
 	dbw 10, POLIWAG
 	dbw 5, POLIWAG
 	dbw 10, POLIWHIRL
-	end_water_wildmons
-
-	def_water_wildmons VERMILION_CITY
-	db 6 percent ; encounter rate
-	dbw 35, TENTACOOL
-	dbw 30, TENTACOOL
-	dbw 35, TENTACRUEL
 	end_water_wildmons
 
 	def_water_wildmons CELADON_CITY

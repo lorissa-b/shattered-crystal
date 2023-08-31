@@ -9,7 +9,6 @@ VermilionPort_MapScripts:
 	scene_script VermilionPortLeaveShipScene, SCENE_VERMILIONPORT_LEAVE_SHIP
 
 	def_callbacks
-	callback MAPCALLBACK_NEWMAP, VermilionPortFlypointCallback
 
 VermilionPortNoopScene:
 	end
@@ -17,10 +16,6 @@ VermilionPortNoopScene:
 VermilionPortLeaveShipScene:
 	sdefer VermilionPortLeaveShipScript
 	end
-
-VermilionPortFlypointCallback:
-	setflag ENGINE_FLYPOINT_VERMILION
-	endcallback
 
 VermilionPortLeaveShipScript:
 	applymovement PLAYER, VermilionPortLeaveFastShipMovement
@@ -32,7 +27,6 @@ VermilionPortLeaveShipScript:
 	clearevent EVENT_OLIVINE_PORT_PASSAGE_POKEFAN_M
 	setevent EVENT_FAST_SHIP_FIRST_TIME
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
-	blackoutmod VERMILION_CITY
 	end
 
 VermilionPortSailorAtGangwayScript:
@@ -300,8 +294,6 @@ VermilionPort_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  9,  5, VERMILION_PORT_PASSAGE, 5
-	warp_event  7, 17, FAST_SHIP_1F, 1
 
 	def_coord_events
 	coord_event  7, 11, SCENE_VERMILIONPORT_ASK_ENTER_SHIP, VermilionPortWalkUpToShipScript

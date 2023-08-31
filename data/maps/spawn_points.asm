@@ -14,7 +14,6 @@ SpawnPoints:
 	spawn PALLET_TOWN,                 5,  6
 	spawn VIRIDIAN_CITY,              23, 26
 	spawn PEWTER_CITY,                13, 26
-	spawn VERMILION_CITY,              9,  6
 	spawn LAVENDER_TOWN,               5,  6
 	spawn SAFFRON_CITY,                9, 30
 	spawn CELADON_CITY,               29, 10

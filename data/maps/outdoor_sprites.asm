@@ -13,7 +13,6 @@ OutdoorSprites:
 	dw LakeOfRageGroupSprites
 	dw VioletGroupSprites
 	dw GoldenrodGroupSprites
-	dw VermilionGroupSprites
 	dw PalletGroupSprites
 	dw PewterGroupSprites
 	dw FastShipGroupSprites
@@ -156,31 +155,6 @@ CeladonGroupSprites:
 	db SPRITE_FRUIT_TREE
 
 LavenderGroupSprites:
-	db SPRITE_SUICUNE
-	db SPRITE_SILVER_TROPHY
-	db SPRITE_FAMICOM
-	db SPRITE_POKEDEX
-	db SPRITE_WILL
-	db SPRITE_KAREN
-	db SPRITE_NURSE
-	db SPRITE_OLD_LINK_RECEPTIONIST
-	db SPRITE_BIG_LAPRAS
-	db SPRITE_BIG_ONIX
-	db SPRITE_SUDOWOODO
-	db SPRITE_BIG_SNORLAX
-	db SPRITE_POKEFAN_M
-	db SPRITE_MACHOP
-	db SPRITE_GRAMPS
-	db SPRITE_YOUNGSTER
-	db SPRITE_FISHER
-	db SPRITE_TEACHER
-	db SPRITE_SUPER_NERD
-	db SPRITE_BIG_SNORLAX
-	db SPRITE_BIKER
-	db SPRITE_POKE_BALL
-	db SPRITE_FRUIT_TREE
-
-VermilionGroupSprites:
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_FAMICOM

@@ -288,31 +288,17 @@ ENDM
 	connection north, Route12, ROUTE_12, 20
 	connection south, Route14, ROUTE_14, 0
 
-	map_attributes Route12, ROUTE_12, $43, NORTH | SOUTH | WEST
+	map_attributes Route12, ROUTE_12, $43, NORTH | SOUTH
 	connection north, LavenderTown, LAVENDER_TOWN, 0
 	connection south, Route13, ROUTE_13, -20
-	connection west, Route11, ROUTE_11, 9
-
-	map_attributes Route11, ROUTE_11, $0f, WEST | EAST
-	connection west, VermilionCity, VERMILION_CITY, 0
-	connection east, Route12, ROUTE_12, -9
 
 	map_attributes LavenderTown, LAVENDER_TOWN, $2c, NORTH | SOUTH | WEST
 	connection north, Route10South, ROUTE_10_SOUTH, 0
 	connection south, Route12, ROUTE_12, 0
 	connection west, Route8, ROUTE_8, 0
 
-	map_attributes VermilionCity, VERMILION_CITY, $43, NORTH | EAST
-	connection north, Route6, ROUTE_6, 5
-	connection east, Route11, ROUTE_11, 0
-
-	map_attributes Route6, ROUTE_6, $0f, NORTH | SOUTH
-	connection north, SaffronCity, SAFFRON_CITY, -5
-	connection south, VermilionCity, VERMILION_CITY, -5
-
-	map_attributes SaffronCity, SAFFRON_CITY, $0f, NORTH | SOUTH | WEST | EAST
+	map_attributes SaffronCity, SAFFRON_CITY, $0f, NORTH | WEST | EAST
 	connection north, Route5, ROUTE_5, 5
-	connection south, Route6, ROUTE_6, 5
 	connection west, Route7, ROUTE_7, 9
 	connection east, Route8, ROUTE_8, 9
 
@@ -494,16 +480,6 @@ ENDM
 	map_attributes IlexForestAzaleaGate, ILEX_FOREST_AZALEA_GATE, $00, 0
 	map_attributes Route34IlexForestGate, ROUTE_34_ILEX_FOREST_GATE, $00, 0
 	map_attributes DayCare, DAY_CARE, $00, 0
-	map_attributes VermilionFishingSpeechHouse, VERMILION_FISHING_SPEECH_HOUSE, $00, 0
-	map_attributes VermilionPokecenter1F, VERMILION_POKECENTER_1F, $00, 0
-	map_attributes VermilionPokecenter2FBeta, VERMILION_POKECENTER_2F_BETA, $00, 0
-	map_attributes PokemonFanClub, POKEMON_FAN_CLUB, $00, 0
-	map_attributes VermilionMagnetTrainSpeechHouse, VERMILION_MAGNET_TRAIN_SPEECH_HOUSE, $00, 0
-	map_attributes VermilionMart, VERMILION_MART, $00, 0
-	map_attributes VermilionDiglettsCaveSpeechHouse, VERMILION_DIGLETTS_CAVE_SPEECH_HOUSE, $00, 0
-	map_attributes VermilionGym, VERMILION_GYM, $00, 0
-	map_attributes Route6SaffronGate, ROUTE_6_SAFFRON_GATE, $00, 0
-	map_attributes Route6UndergroundPathEntrance, ROUTE_6_UNDERGROUND_PATH_ENTRANCE, $00, 0
 	map_attributes RedsHouse1F, REDS_HOUSE_1F, $00, 0
 	map_attributes RedsHouse2F, REDS_HOUSE_2F, $00, 0
 	map_attributes BluesHouse, BLUES_HOUSE, $00, 0

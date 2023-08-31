@@ -23,7 +23,7 @@ MapGroupRoofs:
 	db ROOF_AZALEA    ;  9 (Lake of Rage)
 	db ROOF_VIOLET    ; 10 (Violet)
 	db ROOF_GOLDENROD ; 11 (Goldenrod)
-	db -1             ; 12
+	; 12 (Vermilion)
 	db -1             ; 13
 	db -1             ; 14
 	db -1             ; 15

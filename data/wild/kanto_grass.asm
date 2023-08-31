@@ -282,34 +282,6 @@ KantoGrassWildMons:
 	dbw 14, ABRA
 	end_grass_wildmons
 
-	def_grass_wildmons ROUTE_6
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 13, RATTATA
-	dbw 13, SNUBBULL
-	dbw 14, MAGNEMITE
-	dbw 15, RATICATE
-	dbw 12, JIGGLYPUFF
-	dbw 15, GRANBULL
-	dbw 15, GRANBULL
-	; day
-	dbw 13, RATTATA
-	dbw 13, SNUBBULL
-	dbw 14, MAGNEMITE
-	dbw 15, RATICATE
-	dbw 12, JIGGLYPUFF
-	dbw 15, GRANBULL
-	dbw 15, GRANBULL
-	; nite
-	dbw 13, MEOWTH
-	dbw 13, DROWZEE
-	dbw 14, MAGNEMITE
-	dbw 15, PSYDUCK
-	dbw 12, JIGGLYPUFF
-	dbw 15, RATICATE
-	dbw 15, RATICATE
-	end_grass_wildmons
-
 	def_grass_wildmons ROUTE_7
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
@@ -364,34 +336,6 @@ KantoGrassWildMons:
 	dbw 16, JIGGLYPUFF
 	dbw 18, KADABRA
 	dbw 18, KADABRA
-	end_grass_wildmons
-
-	def_grass_wildmons ROUTE_11
-	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
-	; morn
-	dbw 14, HOPPIP
-	dbw 13, RATICATE
-	dbw 15, MAGNEMITE
-	dbw 16, PIDGEOTTO
-	dbw 16, RATTATA
-	dbw 16, HOPPIP
-	dbw 16, HOPPIP
-	; day
-	dbw 14, HOPPIP
-	dbw 13, RATICATE
-	dbw 15, MAGNEMITE
-	dbw 16, PIDGEOTTO
-	dbw 16, RATTATA
-	dbw 16, HOPPIP
-	dbw 16, HOPPIP
-	; nite
-	dbw 14, DROWZEE
-	dbw 13, MEOWTH
-	dbw 15, MAGNEMITE
-	dbw 16, NOCTOWL
-	dbw 16, RATICATE
-	dbw 16, HYPNO
-	dbw 16, HYPNO
 	end_grass_wildmons
 
 	def_grass_wildmons ROUTE_13
