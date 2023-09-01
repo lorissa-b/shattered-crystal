@@ -53,15 +53,6 @@ EngineFlags:
 	engine_flag wJohtoBadges, GLACIERBADGE
 	engine_flag wJohtoBadges, RISINGBADGE
 
-	engine_flag wKantoBadges, BOULDERBADGE
-	engine_flag wKantoBadges, CASCADEBADGE
-	engine_flag wKantoBadges, THUNDERBADGE
-	engine_flag wKantoBadges, RAINBOWBADGE
-	engine_flag wKantoBadges, SOULBADGE
-	engine_flag wKantoBadges, MARSHBADGE
-	engine_flag wKantoBadges, VOLCANOBADGE
-	engine_flag wKantoBadges, EARTHBADGE
-
 	; unown sets (see data/wild/unlocked_unowns.asm)
 	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_A_TO_K_F
 	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_L_TO_R_F

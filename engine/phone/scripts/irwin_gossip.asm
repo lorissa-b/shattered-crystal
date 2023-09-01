@@ -5,8 +5,6 @@ IrwinRumorScript:
 	iftrue .Snorlax
 	checkevent EVENT_GOT_PASS_FROM_COPYCAT
 	iftrue .TrainPass
-	checkflag ENGINE_MARSHBADGE
-	iftrue .MarshBadge
 	checkevent EVENT_BEAT_ELITE_FOUR
 	iftrue .EliteFour
 	checkflag ENGINE_RISINGBADGE

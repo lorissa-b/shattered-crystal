@@ -122,9 +122,6 @@ Route31VioletGate_Blocks:
 ElmsLab_Blocks:
 	INCBIN "maps/ElmsLab.ablk"
 
-Route22_Blocks:
-	INCBIN "maps/Route22.ablk"
-
 
 SECTION "Map Blocks 2", ROMX
 
@@ -186,9 +183,6 @@ VioletNicknameSpeechHouse_Blocks:
 VioletKylesHouse_Blocks:
 	INCBIN "maps/House2.ablk"
 
-BetaUnionCave_Blocks: ; unreferenced
-	INCBIN "maps/unused/BetaUnionCave.ablk"
-
 UnionCaveB1F_Blocks:
 	INCBIN "maps/UnionCaveB1F.ablk"
 
@@ -210,9 +204,6 @@ GoldenrodMagnetTrainStation_Blocks:
 
 RuinsOfAlphOutside_Blocks:
 	INCBIN "maps/RuinsOfAlphOutside.ablk"
-
-BetaRuinsOfAlphUnsolvedPuzzleRoom_Blocks: ; unreferenced
-	INCBIN "maps/unused/BetaRuinsOfAlphUnsolvedPuzzleRoom.ablk"
 
 RuinsOfAlphInnerChamber_Blocks:
 	INCBIN "maps/RuinsOfAlphInnerChamber.ablk"
@@ -465,9 +456,6 @@ OlivineLighthouse6F_Blocks:
 
 SECTION "Map Blocks 3", ROMX
 
-BetaSlowpokeWell1F_Blocks: ; unreferenced
-	INCBIN "maps/unused/BetaSlowpokeWell1F.ablk"
-
 SlowpokeWellB1F_Blocks:
 	INCBIN "maps/SlowpokeWellB1F.ablk"
 
@@ -529,18 +517,11 @@ VictoryRoad_Blocks:
 
 Route23_Blocks:
 	INCBIN "maps/Route23.ablk"
-
 LancesRoom_Blocks:
 	INCBIN "maps/LancesRoom.ablk"
 
 HallOfFame_Blocks:
 	INCBIN "maps/HallOfFame.ablk"
-
-CopycatsHouse1F_Blocks:
-	INCBIN "maps/CopycatsHouse1F.ablk"
-
-CopycatsHouse2F_Blocks:
-	INCBIN "maps/CopycatsHouse2F.ablk"
 
 GoldenrodFlowerShop_Blocks:
 	INCBIN "maps/GoldenrodFlowerShop.ablk"
@@ -601,9 +582,6 @@ BattleTowerElevator_Blocks:
 
 BattleTowerOutside_Blocks:
 	INCBIN "maps/BattleTowerOutside.ablk"
-
-BetaBlank_Blocks: ; unreferenced
-	INCBIN "maps/unused/BetaBlank.ablk"
 
 GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.ablk"
