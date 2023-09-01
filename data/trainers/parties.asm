@@ -504,69 +504,6 @@ ChampionGroup:
 
 	end_list_items
 
-BrockGroup:
-	next_list_item ; BROCK (1)
-	db "BROCK@", TRAINERTYPE_MOVES
-	db 41
-	dw GRAVELER
-	dw DEFENSE_CURL, ROCK_SLIDE, ROLLOUT, EARTHQUAKE
-	db 41
-	dw RHYHORN
-	dw FURY_ATTACK, SCARY_FACE, EARTHQUAKE, HORN_DRILL
-	db 42
-	dw OMASTAR
-	dw BITE, SURF, PROTECT, SPIKE_CANNON
-	db 44
-	dw ONIX
-	dw BIND, ROCK_SLIDE, BIDE, SANDSTORM
-	db 42
-	dw KABUTOPS
-	dw SLASH, SURF, ENDURE, GIGA_DRAIN
-	db -1 ; end
-
-	end_list_items
-
-MistyGroup:
-	next_list_item ; MISTY (1)
-	db "MISTY@", TRAINERTYPE_MOVES
-	db 42
-	dw GOLDUCK
-	dw SURF, DISABLE, PSYCH_UP, PSYCHIC_M
-	db 42
-	dw QUAGSIRE
-	dw SURF, AMNESIA, EARTHQUAKE, RAIN_DANCE
-	db 44
-	dw LAPRAS
-	dw SURF, PERISH_SONG, BLIZZARD, RAIN_DANCE
-	db 47
-	dw STARMIE
-	dw SURF, CONFUSE_RAY, RECOVER, ICE_BEAM
-	db -1 ; end
-
-	end_list_items
-
-LtSurgeGroup:
-	next_list_item ; LT_SURGE (1)
-	db "LT.SURGE@", TRAINERTYPE_MOVES
-	db 44
-	dw RAICHU
-	dw THUNDER_WAVE, QUICK_ATTACK, THUNDERBOLT, THUNDER
-	db 40
-	dw ELECTRODE
-	dw SCREECH, DOUBLE_TEAM, SWIFT, EXPLOSION
-	db 40
-	dw MAGNETON
-	dw LOCK_ON, DOUBLE_TEAM, SWIFT, ZAP_CANNON
-	db 40
-	dw ELECTRODE
-	dw SCREECH, DOUBLE_TEAM, SWIFT, EXPLOSION
-	db 46
-	dw ELECTABUZZ
-	dw QUICK_ATTACK, THUNDERPUNCH, LIGHT_SCREEN, THUNDER
-	db -1 ; end
-
-	end_list_items
-
 ScientistGroup:
 	next_list_item ; SCIENTIST (1)
 	db "ROSS@", TRAINERTYPE_NORMAL
@@ -607,25 +544,6 @@ ScientistGroup:
 	db 30
 	dw PORYGON
 	dw CONVERSION, CONVERSION2, RECOVER, TRI_ATTACK
-	db -1 ; end
-
-	end_list_items
-
-ErikaGroup:
-	next_list_item ; ERIKA (1)
-	db "ERIKA@", TRAINERTYPE_MOVES
-	db 42
-	dw TANGELA
-	dw VINE_WHIP, BIND, GIGA_DRAIN, SLEEP_POWDER
-	db 41
-	dw JUMPLUFF
-	dw MEGA_DRAIN, LEECH_SEED, COTTON_SPORE, GIGA_DRAIN
-	db 46
-	dw VICTREEBEL
-	dw SUNNY_DAY, SYNTHESIS, ACID, RAZOR_LEAF
-	db 46
-	dw BELLOSSOM
-	dw SUNNY_DAY, SYNTHESIS, PETAL_DANCE, SOLARBEAM
 	db -1 ; end
 
 	end_list_items
@@ -1274,28 +1192,6 @@ LassGroup:
 	db 36
 	dw GOLDUCK
 	dw DISABLE, SURF, PSYCHIC_M, SCREECH
-	db -1 ; end
-
-	end_list_items
-
-JanineGroup:
-	next_list_item ; JANINE (1)
-	db "JANINE@", TRAINERTYPE_MOVES
-	db 36
-	dw CROBAT
-	dw SCREECH, SUPERSONIC, CONFUSE_RAY, WING_ATTACK
-	db 36
-	dw WEEZING
-	dw SMOG, SLUDGE_BOMB, TOXIC, EXPLOSION
-	db 36
-	dw WEEZING
-	dw SMOG, SLUDGE_BOMB, TOXIC, EXPLOSION
-	db 33
-	dw ARIADOS
-	dw SCARY_FACE, GIGA_DRAIN, STRING_SHOT, NIGHT_SHADE
-	db 39
-	dw VENOMOTH
-	dw FORESIGHT, DOUBLE_TEAM, GUST, PSYCHIC_M
 	db -1 ; end
 
 	end_list_items
@@ -2270,22 +2166,6 @@ TeacherGroup:
 	db "SHIRLEY@", TRAINERTYPE_NORMAL
 	db 35
 	dw JIGGLYPUFF
-	db -1 ; end
-
-	end_list_items
-
-SabrinaGroup:
-	next_list_item ; SABRINA (1)
-	db "SABRINA@", TRAINERTYPE_MOVES
-	db 46
-	dw ESPEON
-	dw SAND_ATTACK, QUICK_ATTACK, SWIFT, PSYCHIC_M
-	db 46
-	dw MR__MIME
-	dw BARRIER, REFLECT, BATON_PASS, PSYCHIC_M
-	db 48
-	dw ALAKAZAM
-	dw RECOVER, FUTURE_SIGHT, PSYCHIC_M, REFLECT
 	db -1 ; end
 
 	end_list_items
@@ -3732,22 +3612,6 @@ BikerGroup:
 
 	end_list_items
 
-BlaineGroup:
-	next_list_item ; BLAINE (1)
-	db "BLAINE@", TRAINERTYPE_MOVES
-	db 45
-	dw MAGCARGO
-	dw CURSE, SMOG, FLAMETHROWER, ROCK_SLIDE
-	db 45
-	dw MAGMAR
-	dw THUNDERPUNCH, FIRE_PUNCH, SUNNY_DAY, CONFUSE_RAY
-	db 50
-	dw RAPIDASH
-	dw QUICK_ATTACK, FIRE_SPIN, FURY_ATTACK, FIRE_BLAST
-	db -1 ; end
-
-	end_list_items
-
 BurglarGroup:
 	next_list_item ; BURGLAR (1)
 	db "DUNCAN@", TRAINERTYPE_NORMAL
@@ -5166,31 +5030,6 @@ RedGroup:
 	db 77
 	dw BLASTOISE
 	dw RAIN_DANCE, SURF, BLIZZARD, WHIRLPOOL
-	db -1 ; end
-
-	end_list_items
-
-BlueGroup:
-	next_list_item ; BLUE (1)
-	db "BLUE@", TRAINERTYPE_MOVES
-	db 56
-	dw PIDGEOT
-	dw QUICK_ATTACK, WHIRLWIND, WING_ATTACK, MIRROR_MOVE
-	db 54
-	dw ALAKAZAM
-	dw DISABLE, RECOVER, PSYCHIC_M, REFLECT
-	db 56
-	dw RHYDON
-	dw FURY_ATTACK, SANDSTORM, ROCK_SLIDE, EARTHQUAKE
-	db 58
-	dw GYARADOS
-	dw TWISTER, HYDRO_PUMP, RAIN_DANCE, HYPER_BEAM
-	db 58
-	dw EXEGGUTOR
-	dw SUNNY_DAY, LEECH_SEED, EGG_BOMB, SOLARBEAM
-	db 58
-	dw ARCANINE
-	dw ROAR, SWIFT, FLAMETHROWER, EXTREMESPEED
 	db -1 ; end
 
 	end_list_items

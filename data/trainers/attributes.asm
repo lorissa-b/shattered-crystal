@@ -98,34 +98,10 @@ TrainerClassAttributes:
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
-; Brock
-	db HYPER_POTION, NO_ITEM ; items
-	db 25 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
-	dw CONTEXT_USE | SWITCH_SOMETIMES
-
-; Misty
-	db FULL_HEAL, NO_ITEM ; items
-	db 25 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
-	dw CONTEXT_USE | SWITCH_SOMETIMES
-
-; Lt Surge
-	db HYPER_POTION, NO_ITEM ; items
-	db 25 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
-	dw CONTEXT_USE | SWITCH_SOMETIMES
-
 ; Scientist
 	db NO_ITEM, NO_ITEM ; items
 	db 25 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_TYPES | AI_STATUS | AI_RISKY
-	dw CONTEXT_USE | SWITCH_SOMETIMES
-
-; Erika
-	db HYPER_POTION, NO_ITEM ; items
-	db 25 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Youngster
@@ -151,12 +127,6 @@ TrainerClassAttributes:
 	db 6 ; base reward
 	dw AI_BASIC | AI_CAUTIOUS | AI_STATUS
 	dw CONTEXT_USE | SWITCH_OFTEN
-
-; Janine
-	db DIRE_HIT, NO_ITEM ; items
-	db 25 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
-	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Cooltrainerm
 	db NO_ITEM, NO_ITEM ; items
@@ -204,12 +174,6 @@ TrainerClassAttributes:
 	db NO_ITEM, NO_ITEM ; items
 	db 18 ; base reward
 	dw AI_BASIC | AI_OPPORTUNIST | AI_AGGRESSIVE | AI_STATUS
-	dw CONTEXT_USE | SWITCH_SOMETIMES
-
-; Sabrina
-	db HYPER_POTION, NO_ITEM ; items
-	db 25 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Bug Catcher
@@ -270,12 +234,6 @@ TrainerClassAttributes:
 	db NO_ITEM, NO_ITEM ; items
 	db 8 ; base reward
 	dw AI_BASIC | AI_TYPES | AI_STATUS | AI_RISKY
-	dw CONTEXT_USE | SWITCH_SOMETIMES
-
-; Blaine
-	db MAX_POTION, FULL_HEAL ; items
-	db 25 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Burglar
@@ -375,12 +333,6 @@ TrainerClassAttributes:
 	dw CONTEXT_USE | SWITCH_SOMETIMES
 
 ; Red
-	db FULL_RESTORE, FULL_RESTORE ; items
-	db 25 ; base reward
-	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY
-	dw CONTEXT_USE | SWITCH_SOMETIMES
-
-; Blue
 	db FULL_RESTORE, FULL_RESTORE ; items
 	db 25 ; base reward
 	dw AI_BASIC | AI_SETUP | AI_SMART | AI_AGGRESSIVE | AI_CAUTIOUS | AI_STATUS | AI_RISKY

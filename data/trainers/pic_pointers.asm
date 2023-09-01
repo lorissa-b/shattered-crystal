@@ -19,16 +19,11 @@ TrainerPicPointers::
 	dba KarenPic
 	dba KogaPic
 	dba ChampionPic
-	dba BrockPic
-	dba MistyPic
-	dba LtSurgePic
 	dba ScientistPic
-	dba ErikaPic
 	dba YoungsterPic
 	dba SchoolboyPic
 	dba BirdKeeperPic
 	dba LassPic
-	dba JaninePic
 	dba CooltrainermPic
 	dba CooltrainerfPic
 	dba BeautyPic
@@ -37,7 +32,6 @@ TrainerPicPointers::
 	dba GentlemanPic
 	dba SkierPic
 	dba TeacherPic
-	dba SabrinaPic
 	dba BugCatcherPic
 	dba FisherPic
 	dba SwimmermPic
@@ -48,7 +42,6 @@ TrainerPicPointers::
 	dba GuitaristPic
 	dba HikerPic
 	dba BikerPic
-	dba BlainePic
 	dba BurglarPic
 	dba FirebreatherPic
 	dba JugglerPic
@@ -66,7 +59,6 @@ TrainerPicPointers::
 	dba TwinsPic
 	dba PokefanfPic
 	dba RedPic
-	dba BluePic
 	dba OfficerPic
 	dba GruntfPic
 	dba MysticalmanPic

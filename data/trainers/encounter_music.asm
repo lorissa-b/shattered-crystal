@@ -20,16 +20,11 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; karen
 	db MUSIC_HIKER_ENCOUNTER       ; koga
 	db MUSIC_OFFICER_ENCOUNTER     ; champion
-	db MUSIC_YOUNGSTER_ENCOUNTER   ; brock
-	db MUSIC_LASS_ENCOUNTER        ; misty
-	db MUSIC_OFFICER_ENCOUNTER     ; lt_surge
 	db MUSIC_ROCKET_ENCOUNTER      ; scientist
-	db MUSIC_OFFICER_ENCOUNTER     ; erika
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; youngster
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; schoolboy
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; bird_keeper
 	db MUSIC_LASS_ENCOUNTER        ; lass
-	db MUSIC_LASS_ENCOUNTER        ; janine
 	db MUSIC_HIKER_ENCOUNTER       ; cooltrainerm
 	db MUSIC_BEAUTY_ENCOUNTER      ; cooltrainerf
 	db MUSIC_BEAUTY_ENCOUNTER      ; beauty
@@ -38,7 +33,6 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; gentleman
 	db MUSIC_BEAUTY_ENCOUNTER      ; skier
 	db MUSIC_BEAUTY_ENCOUNTER      ; teacher
-	db MUSIC_BEAUTY_ENCOUNTER      ; sabrina
 	db MUSIC_YOUNGSTER_ENCOUNTER   ; bug_catcher
 	db MUSIC_HIKER_ENCOUNTER       ; fisher
 	db MUSIC_HIKER_ENCOUNTER       ; swimmerm
@@ -49,7 +43,6 @@ TrainerEncounterMusic::
 	db MUSIC_HIKER_ENCOUNTER       ; guitarist
 	db MUSIC_HIKER_ENCOUNTER       ; hiker
 	db MUSIC_HIKER_ENCOUNTER       ; biker
-	db MUSIC_OFFICER_ENCOUNTER     ; blaine
 	db MUSIC_POKEMANIAC_ENCOUNTER  ; burglar
 	db MUSIC_HIKER_ENCOUNTER       ; firebreather
 	db MUSIC_POKEMANIAC_ENCOUNTER  ; juggler
@@ -67,7 +60,6 @@ TrainerEncounterMusic::
 	db MUSIC_LASS_ENCOUNTER        ; twins
 	db MUSIC_BEAUTY_ENCOUNTER      ; pokefanf
 	db MUSIC_HIKER_ENCOUNTER       ; red
-	db MUSIC_RIVAL_ENCOUNTER       ; blue
 	db MUSIC_HIKER_ENCOUNTER       ; officer
 	db MUSIC_ROCKET_ENCOUNTER      ; gruntf
 	db MUSIC_HIKER_ENCOUNTER       ; mysticalman

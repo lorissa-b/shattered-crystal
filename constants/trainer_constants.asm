@@ -91,24 +91,12 @@ DEF KRIS EQU __trainer_class__
 	trainerclass CHAMPION ; 10
 	const LANCE
 
-	trainerclass BROCK ; 11
-	const BROCK1
-
-	trainerclass MISTY ; 12
-	const MISTY1
-
-	trainerclass LT_SURGE ; 13
-	const LT_SURGE1
-
 	trainerclass SCIENTIST ; 14
 	const ROSS
 	const MITCH
 	const JED
 	const MARC
 	const RICH
-
-	trainerclass ERIKA ; 15
-	const ERIKA1
 
 	trainerclass YOUNGSTER ; 16
 	const JOEY1
@@ -191,9 +179,6 @@ DEF KRIS EQU __trainer_class__
 	const DANA3
 	const DANA4
 	const DANA5
-
-	trainerclass JANINE ; 1a
-	const JANINE1
 
 	trainerclass COOLTRAINERM ; 1b
 	const NICK
@@ -324,9 +309,6 @@ DEF KRIS EQU __trainer_class__
 	const COLETTE
 	const HILLARY
 	const SHIRLEY
-
-	trainerclass SABRINA ; 23
-	const SABRINA1
 
 	trainerclass BUG_CATCHER ; 24
 	const DON
@@ -497,9 +479,6 @@ DEF KRIS EQU __trainer_class__
 	const RILEY
 	const JOEL
 	const GLENN
-
-	trainerclass BLAINE ; 2e
-	const BLAINE1
 
 	trainerclass BURGLAR ; 2f
 	const DUNCAN
@@ -685,9 +664,6 @@ DEF KRIS EQU __trainer_class__
 
 	trainerclass RED ; 3f
 	const RED1
-
-	trainerclass BLUE ; 40
-	const BLUE1
 
 	trainerclass OFFICER ; 41
 	const KEITH
