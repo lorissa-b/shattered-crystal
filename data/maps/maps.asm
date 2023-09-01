@@ -22,27 +22,16 @@ MapGroupPointers::
 	dw MapGroup_Dungeons    ;  3
 	dw MapGroup_Ecruteak    ;  4
 	dw MapGroup_Blackthorn  ;  5
-	; dw MapGroup_Cinnabar     6
-	; dw MapGroup_Cerulean     7
-	dw MapGroup_Azalea      ;  8
-	dw MapGroup_LakeOfRage  ;  9
-	dw MapGroup_Violet      ; 10
-	dw MapGroup_Goldenrod   ; 11
-	; dw MapGroup_Vermilion   ; 12
-	; dw MapGroup_Pallet      ; 13
-	; dw MapGroup_Pewter      ; 14
-	; dw MapGroup_FastShip    ; 15
-	dw MapGroup_Indigo      ; 16
-	; dw MapGroup_Fuchsia     ; 17
-	; dw MapGroup_Lavender    ; 18
-	dw MapGroup_Silver      ; 19
-	dw MapGroup_CableClub   ; 20
-	; dw MapGroup_Celadon     ; 21
-	dw MapGroup_Cianwood    ; 22
-	; dw MapGroup_Viridian    ; 23
-	dw MapGroup_NewBark     ; 24
-	; dw MapGroup_Saffron     ; 25
-	dw MapGroup_Cherrygrove ; 26
+	dw MapGroup_Azalea      ;  6
+	dw MapGroup_LakeOfRage  ;  7
+	dw MapGroup_Violet      ;  8
+	dw MapGroup_Goldenrod   ;  9
+	dw MapGroup_Indigo      ; 10
+	dw MapGroup_Silver      ; 11
+	dw MapGroup_CableClub   ; 12
+	dw MapGroup_Cianwood    ; 13
+	dw MapGroup_NewBark     ; 14
+	dw MapGroup_Cherrygrove ; 15
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
