@@ -14,7 +14,7 @@ MapGroupRoofs:
 	db -1             ;  0
 	db ROOF_OLIVINE   ;  1 (Olivine)
 	db ROOF_AZALEA    ;  2 (Mahogany)
-	db -1             ;  3
+	db -1             ;  3 (Dungeons)
 	db ROOF_VIOLET    ;  4 (Ecruteak)
 	db ROOF_AZALEA    ;  5 (Blackthorn)
 	; 6 (Cinnabar)
@@ -26,12 +26,12 @@ MapGroupRoofs:
 	; 12 (Vermilion)
 	; 13 (Pallet)
 	; 14 (Pewter)
-	db -1             ; 15
-	db -1             ; 16
+	; 15 (Fast Ship)
+	db -1             ; 16 (Indigo)
 	; 17 (Fuchsia)
 	; 18 (Lavender)
 	db ROOF_NEW_BARK  ; 19 (Silver Cave)
-	db -1             ; 20
+	db -1             ; 20 (Cable Club)
 	; 21 (Celadon)
 	db ROOF_OLIVINE   ; 22 (Cianwood)
 	; 23 (Viridian)

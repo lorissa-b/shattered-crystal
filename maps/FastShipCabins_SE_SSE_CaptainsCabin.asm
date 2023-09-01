@@ -79,7 +79,6 @@ SSAquaGranddaughterBefore:
 	writetext SSAquaEntertainedGranddaughterText
 	promptbutton
 	setevent EVENT_VERMILION_PORT_SAILOR_AT_GANGWAY
-	setmapscene FAST_SHIP_1F, SCENE_FASTSHIP1F_NOOP
 	sjump SSAquaMetalCoatAndDocking
 
 SSAquaGrandpa:
@@ -92,7 +91,6 @@ SSAquaGrandpa:
 	writetext SSAquaCantFindGranddaughterText
 	waitbutton
 	closetext
-	setmapscene FAST_SHIP_1F, SCENE_FASTSHIP1F_NOOP
 	end
 
 SSAquaMetalCoatAndDocking:
@@ -464,12 +462,6 @@ FastShipCabins_SE_SSE_CaptainsCabin_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  7, FAST_SHIP_1F, 8
-	warp_event  3,  7, FAST_SHIP_1F, 8
-	warp_event  2, 19, FAST_SHIP_1F, 9
-	warp_event  3, 19, FAST_SHIP_1F, 9
-	warp_event  2, 33, FAST_SHIP_1F, 10
-	warp_event  3, 33, FAST_SHIP_1F, 10
 
 	def_coord_events
 

@@ -69,11 +69,6 @@ MapScenes::
 	scene_var VICTORY_ROAD,                                wVictoryRoadSceneID
 	scene_var DRAGONS_DEN_B1F,                             wDragonsDenB1FSceneID
 	scene_var DRAGON_SHRINE,                               wDragonShrineSceneID
-	scene_var OLIVINE_PORT,                                wOlivinePortSceneID
-	scene_var VERMILION_PORT,                              wVermilionPortSceneID
-	scene_var FAST_SHIP_1F,                                wFastShip1FSceneID
-	scene_var FAST_SHIP_B1F,                               wFastShipB1FSceneID
-	scene_var MOUNT_MOON_SQUARE,                           wMountMoonSquareSceneID
 	scene_var MOBILE_TRADE_ROOM,                           wMobileTradeRoomSceneID
 	scene_var MOBILE_BATTLE_ROOM,                          wMobileBattleRoomSceneID
 	db -1 ; end

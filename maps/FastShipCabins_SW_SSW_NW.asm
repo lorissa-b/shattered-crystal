@@ -224,11 +224,6 @@ FastShipCabins_SW_SSW_NW_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  0, FAST_SHIP_1F, 5
-	warp_event  2, 19, FAST_SHIP_1F, 6
-	warp_event  3, 19, FAST_SHIP_1F, 6
-	warp_event  2, 31, FAST_SHIP_1F, 7
-	warp_event  3, 31, FAST_SHIP_1F, 7
 
 	def_coord_events
 

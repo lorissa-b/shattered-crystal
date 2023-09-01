@@ -29,7 +29,6 @@ FastShip1FEnterShipScript:
 	pause 30
 	playsound SFX_BOAT
 	earthquake 30
-	blackoutmod FAST_SHIP_CABINS_SW_SSW_NW
 	clearevent EVENT_FAST_SHIP_HAS_ARRIVED
 	checkevent EVENT_FAST_SHIP_FIRST_TIME
 	iftrue .SkipGrandpa
@@ -68,9 +67,6 @@ FastShip1FSailor1Script:
 	playsound SFX_EXIT_BUILDING
 	special FadeOutPalettes
 	waitsfx
-	setevent EVENT_VERMILION_PORT_SAILOR_AT_GANGWAY
-	setmapscene VERMILION_PORT, SCENE_VERMILIONPORT_LEAVE_SHIP
-	warp VERMILION_PORT, 7, 17
 	end
 
 ._Olivine:
@@ -81,9 +77,6 @@ FastShip1FSailor1Script:
 	playsound SFX_EXIT_BUILDING
 	special FadeOutPalettes
 	waitsfx
-	setevent EVENT_OLIVINE_PORT_SAILOR_AT_GANGWAY
-	setmapscene OLIVINE_PORT, SCENE_OLIVINEPORT_LEAVE_SHIP
-	warp OLIVINE_PORT, 7, 23
 	end
 
 .LetThePlayerOut:
@@ -287,18 +280,6 @@ FastShip1F_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 25,  1, FAST_SHIP_1F, -1
-	warp_event 27,  8, FAST_SHIP_CABINS_NNW_NNE_NE, 1
-	warp_event 23,  8, FAST_SHIP_CABINS_NNW_NNE_NE, 2
-	warp_event 19,  8, FAST_SHIP_CABINS_NNW_NNE_NE, 3
-	warp_event 15,  8, FAST_SHIP_CABINS_SW_SSW_NW, 1
-	warp_event 15, 15, FAST_SHIP_CABINS_SW_SSW_NW, 2
-	warp_event 19, 15, FAST_SHIP_CABINS_SW_SSW_NW, 4
-	warp_event 23, 15, FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN, 1
-	warp_event 27, 15, FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN, 3
-	warp_event  3, 13, FAST_SHIP_CABINS_SE_SSE_CAPTAINS_CABIN, 5
-	warp_event  6, 12, FAST_SHIP_B1F, 1
-	warp_event 30, 14, FAST_SHIP_B1F, 2
 
 	def_coord_events
 	coord_event 24,  6, SCENE_FASTSHIP1F_MEET_GRANDPA, WorriedGrandpaSceneLeft

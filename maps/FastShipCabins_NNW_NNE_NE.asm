@@ -96,7 +96,6 @@ FastShipLazySailorScript:
 	waitbutton
 	closetext
 	setevent EVENT_FAST_SHIP_LAZY_SAILOR
-	setmapscene FAST_SHIP_B1F, SCENE_FASTSHIPB1F_NOOP
 	readvar VAR_FACING
 	ifequal RIGHT, .Movement2
 	applymovement FASTSHIPCABINS_NNW_NNE_NE_SAILOR, FastShipLazySailorLeavesMovement1
@@ -268,9 +267,6 @@ FastShipCabins_NNW_NNE_NE_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  0, FAST_SHIP_1F, 2
-	warp_event  2, 12, FAST_SHIP_1F, 3
-	warp_event  2, 24, FAST_SHIP_1F, 4
 
 	def_coord_events
 
