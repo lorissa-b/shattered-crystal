@@ -107,23 +107,12 @@ DEF KRIS EQU __trainer_class__
 	const IAN
 	const JOEY2
 	const JOEY3
-	const WARREN
-	const JIMMY
-	const OWEN
-	const JASON
 	const JOEY4
 	const JOEY5
 
 	trainerclass SCHOOLBOY ; 17
 	const JACK1
-	const KIPP
 	const ALAN1
-	const JOHNNY
-	const DANNY
-	const TOMMY
-	const DUDLEY
-	const JOE
-	const BILLY
 	const CHAD1
 	const NATE
 	const RICKY
@@ -148,15 +137,9 @@ DEF KRIS EQU __trainer_class__
 	const TOBY
 	const DENIS
 	const VANCE1
-	const HANK
-	const ROY
-	const BORIS
-	const BOB
 	const JOSE1
 	const PETER
 	const JOSE2
-	const PERRY
-	const BRET
 	const JOSE3
 	const VANCE2
 	const VANCE3
@@ -168,11 +151,8 @@ DEF KRIS EQU __trainer_class__
 	const KRISE
 	const CONNIE1
 	const LINDA
-	const LAURA
-	const SHANNON
 	const MICHELLE
 	const DANA1
-	const ELLEN
 	const DANA2
 	const DANA3
 	const DANA4
@@ -192,7 +172,6 @@ DEF KRIS EQU __trainer_class__
 	const BLAKE
 	const BRIAN
 	const SEAN
-	const KEVIN
 	const ALLEN
 	const DARIN
 
@@ -210,7 +189,6 @@ DEF KRIS EQU __trainer_class__
 	const MEGAN
 	const BETH2
 	const CAROL
-	const QUINN
 	const EMMA
 	const CYBIL
 	const JENN
@@ -269,7 +247,6 @@ DEF KRIS EQU __trainer_class__
 	const GRUNTM_25
 	const GRUNTM_28
 	const GRUNTM_29
-	const GRUNTM_31
 
 	trainerclass GENTLEMAN ; 20
 	const PRESTON
@@ -282,14 +259,10 @@ DEF KRIS EQU __trainer_class__
 	const CLARISSA
 
 	trainerclass TEACHER ; 22
-	const COLETTE
-	const HILLARY
 	const SHIRLEY
 
 	trainerclass BUG_CATCHER ; 24
 	const DON
-	const ROB
-	const ED
 	const WADE1
 	const BUG_CATCHER_BENNY
 	const AL
@@ -298,7 +271,6 @@ DEF KRIS EQU __trainer_class__
 	const KEN
 	const WADE2
 	const WADE3
-	const DOUG
 	const ARNIE2
 	const ARNIE3
 	const WADE4
@@ -310,8 +282,6 @@ DEF KRIS EQU __trainer_class__
 	trainerclass FISHER ; 25
 	const JUSTIN
 	const RALPH1
-	const ARNOLD
-	const KYLE
 	const HENRY
 	const MARVIN
 	const TULLY1
@@ -320,9 +290,6 @@ DEF KRIS EQU __trainer_class__
 	const WILTON1
 	const EDGAR
 	const JONAH
-	const MARTIN
-	const STEPHEN
-	const BARNEY
 	const RALPH2
 	const RALPH3
 	const TULLY2
@@ -335,7 +302,6 @@ DEF KRIS EQU __trainer_class__
 	const TULLY4
 
 	trainerclass SWIMMERM ; 26
-	const HAROLD
 	const SIMON
 	const RANDALL
 	const CHARLIE
@@ -343,10 +309,6 @@ DEF KRIS EQU __trainer_class__
 	const BERKE
 	const KIRK
 	const MATHEW
-	const JEROME
-	const TUCKER
-	const CAMERON
-	const SETH
 	const PARKER
 
 	trainerclass SWIMMERF ; 27
@@ -357,10 +319,6 @@ DEF KRIS EQU __trainer_class__
 	const DENISE
 	const KARA
 	const WENDY
-	const DAWN
-	const NICOLE
-	const LORI
-	const NIKKI
 	const DIANA
 	const BRIANA
 
@@ -382,18 +340,12 @@ DEF KRIS EQU __trainer_class__
 	trainerclass SUPER_NERD ; 29
 	const STAN
 	const ERIC
-	const SAM
-	const TOM
-	const PAT
 	const SHAWN
 	const TERU
 	const HUGH
 	const MARKUS
 
 	trainerclass RIVAL2 ; 2a
-	const RIVAL2_1_CHIKORITA
-	const RIVAL2_1_CYNDAQUIL
-	const RIVAL2_1_TOTODILE
 	const RIVAL2_2_CHIKORITA
 	const RIVAL2_2_CYNDAQUIL
 	const RIVAL2_2_TOTODILE
@@ -415,11 +367,7 @@ DEF KRIS EQU __trainer_class__
 	const TIMOTHY
 	const BAILEY
 	const ANTHONY3
-	const TIM
 	const NOLAND
-	const SIDNEY
-	const KENNY
-	const JIM
 	const DANIEL
 	const PARRY2
 	const PARRY3
@@ -427,13 +375,6 @@ DEF KRIS EQU __trainer_class__
 	const ANTHONY5
 
 	trainerclass BIKER ; 2d
-	const DWAYNE
-	const HARRIS
-	const ZEKE
-	const CHARLES
-	const RILEY
-	const JOEL
-	const GLENN
 
 	trainerclass BURGLAR ; 2f
 	const DUNCAN
@@ -441,8 +382,6 @@ DEF KRIS EQU __trainer_class__
 	const COREY
 
 	trainerclass FIREBREATHER ; 30
-	const OTIS
-	const BURT
 	const BILL
 	const WALT
 	const RAY
@@ -471,8 +410,6 @@ DEF KRIS EQU __trainer_class__
 	trainerclass PSYCHIC_T ; 34
 	const NATHAN
 	const FRANKLIN
-	const HERMAN
-	const FIDEL
 	const GREG
 	const NORMAN
 	const MARK
@@ -488,15 +425,11 @@ DEF KRIS EQU __trainer_class__
 	const BROOKE
 	const KIM
 	const CINDY
-	const HOPE
-	const SHARON
 	const DEBRA
 	const GINA2
 	const ERIN1
 	const LIZ2
 	const LIZ3
-	const HEIDI
-	const EDNA
 	const GINA3
 	const TIFFANY1
 	const TIFFANY2
@@ -517,8 +450,6 @@ DEF KRIS EQU __trainer_class__
 	const ELLIOT
 	const BARRY
 	const LLOYD
-	const DEAN
-	const SID
 	const TED
 	const TODD2
 	const TODD3
@@ -560,16 +491,9 @@ DEF KRIS EQU __trainer_class__
 	trainerclass POKEFANM ; 3b
 	const WILLIAM
 	const DEREK1
-	const ROBERT
-	const JOSHUA
-	const CARTER
-	const TREVOR
 	const BRANDON
 	const JEREMY
 	const COLIN
-	const ALEX
-	const REX
-	const ALLAN
 
 	trainerclass KIMONO_GIRL ; 3c
 	const NAOKO
