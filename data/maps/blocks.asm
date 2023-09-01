@@ -200,7 +200,6 @@ CherrygroveEvolutionSpeechHouse_Blocks:
 Route30BerryHouse_Blocks:
 	INCBIN "maps/House1.ablk"
 
-SafariZoneFuchsiaGateBeta_Blocks:
 Route19FuchsiaGate_Blocks:
 Route43MahoganyGate_Blocks:
 Route43Gate_Blocks:
@@ -922,18 +921,6 @@ CeladonCafe_Blocks:
 BetaCeladonMansion2F_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaCeladonMansion2F.ablk"
 
-RockTunnel1F_Blocks:
-	INCBIN "maps/RockTunnel1F.ablk"
-
-RockTunnelB1F_Blocks:
-	INCBIN "maps/RockTunnelB1F.ablk"
-
-DiglettsCave_Blocks:
-	INCBIN "maps/DiglettsCave.ablk"
-
-MountMoon_Blocks:
-	INCBIN "maps/MountMoon.ablk"
-
 SeafoamGym_Blocks:
 	INCBIN "maps/SeafoamGym.ablk"
 
@@ -949,12 +936,6 @@ VermilionPortPassage_Blocks:
 
 FuchsiaGym_Blocks:
 	INCBIN "maps/FuchsiaGym.ablk"
-
-SafariZoneBeta_Blocks:
-	INCBIN "maps/SafariZoneBeta.ablk"
-
-UndergroundPath_Blocks:
-	INCBIN "maps/UndergroundPath.ablk"
 
 Route39Barn_Blocks:
 	INCBIN "maps/Route39Barn.ablk"
