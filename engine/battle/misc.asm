@@ -162,8 +162,6 @@ DoBadgeTypeBoosts:
 
 	ld hl, BadgeTypeBoosts
 
-	ld a, [wKantoBadges]
-	ld b, a
 	ld a, [wJohtoBadges]
 	ld c, a
 

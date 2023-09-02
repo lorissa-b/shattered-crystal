@@ -8,14 +8,4 @@ BadgeTypeBoosts:
 	db FIGHTING     ; STORMBADGE
 	db ICE          ; GLACIERBADGE
 	db DRAGON       ; RISINGBADGE
-	; fallthrough
-; entries correspond to wKantoBadges constants
-	db ROCK         ; BOULDERBADGE
-	db WATER        ; CASCADEBADGE
-	db ELECTRIC     ; THUNDERBADGE
-	db GRASS        ; RAINBOWBADGE
-	db POISON       ; SOULBADGE
-	db PSYCHIC_TYPE ; MARSHBADGE
-	db FIRE         ; VOLCANOBADGE
-	db GROUND       ; EARTHBADGE
 	db -1 ; end

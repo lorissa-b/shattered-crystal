@@ -202,7 +202,6 @@ _ResetWRAM:
 	ld [wMonType], a
 
 	ld [wJohtoBadges], a
-	ld [wKantoBadges], a
 
 	ld [wCoins], a
 	ld [wCoins + 1], a
