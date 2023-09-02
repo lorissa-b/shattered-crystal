@@ -3010,6 +3010,7 @@ wKeyItems:: ds MAX_KEY_ITEMS + 1
 
 wNumBalls:: db
 wBalls:: ds MAX_BALLS * 2 + 1
+
 wNumBerries:: db
 wBerries:: ds MAX_BERRIES * 2 + 1
 wNumPCItems:: db
