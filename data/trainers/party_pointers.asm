@@ -19,16 +19,11 @@ TrainerGroups:
 	dba KarenGroup
 	dba KogaGroup
 	dba ChampionGroup
-	dba BrockGroup
-	dba MistyGroup
-	dba LtSurgeGroup
 	dba ScientistGroup
-	dba ErikaGroup
 	dba YoungsterGroup
 	dba SchoolboyGroup
 	dba BirdKeeperGroup
 	dba LassGroup
-	dba JanineGroup
 	dba CooltrainerMGroup
 	dba CooltrainerFGroup
 	dba BeautyGroup
@@ -37,7 +32,6 @@ TrainerGroups:
 	dba GentlemanGroup
 	dba SkierGroup
 	dba TeacherGroup
-	dba SabrinaGroup
 	dba BugCatcherGroup
 	dba FisherGroup
 	dba SwimmerMGroup
@@ -48,7 +42,6 @@ TrainerGroups:
 	dba GuitaristGroup
 	dba HikerGroup
 	dba BikerGroup
-	dba BlaineGroup
 	dba BurglarGroup
 	dba FirebreatherGroup
 	dba JugglerGroup
@@ -66,7 +59,6 @@ TrainerGroups:
 	dba TwinsGroup
 	dba PokefanFGroup
 	dba RedGroup
-	dba BlueGroup
 	dba OfficerGroup
 	dba GruntFGroup
 	dba MysticalmanGroup

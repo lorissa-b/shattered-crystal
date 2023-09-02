@@ -25,16 +25,11 @@ INCBIN "gfx/trainers/bruno.gbcpal", middle_colors
 INCBIN "gfx/trainers/karen.gbcpal", middle_colors
 INCBIN "gfx/trainers/koga.gbcpal", middle_colors
 INCBIN "gfx/trainers/champion.gbcpal", middle_colors
-INCBIN "gfx/trainers/brock.gbcpal", middle_colors
-INCBIN "gfx/trainers/misty.gbcpal", middle_colors
-INCBIN "gfx/trainers/lt_surge.gbcpal", middle_colors
 INCBIN "gfx/trainers/scientist.gbcpal", middle_colors
-INCBIN "gfx/trainers/erika.gbcpal", middle_colors
 INCBIN "gfx/trainers/youngster.gbcpal", middle_colors
 INCBIN "gfx/trainers/schoolboy.gbcpal", middle_colors
 INCBIN "gfx/trainers/bird_keeper.gbcpal", middle_colors
 INCBIN "gfx/trainers/lass.gbcpal", middle_colors
-INCBIN "gfx/trainers/janine.gbcpal", middle_colors
 INCBIN "gfx/trainers/cooltrainer_m.gbcpal", middle_colors
 INCBIN "gfx/trainers/cooltrainer_f.gbcpal", middle_colors
 INCBIN "gfx/trainers/beauty.gbcpal", middle_colors
@@ -43,7 +38,6 @@ INCBIN "gfx/trainers/grunt_m.gbcpal", middle_colors
 INCBIN "gfx/trainers/gentleman.gbcpal", middle_colors
 INCBIN "gfx/trainers/skier.gbcpal", middle_colors
 INCBIN "gfx/trainers/teacher.gbcpal", middle_colors
-INCBIN "gfx/trainers/sabrina.gbcpal", middle_colors
 INCBIN "gfx/trainers/bug_catcher.gbcpal", middle_colors
 INCBIN "gfx/trainers/fisher.gbcpal", middle_colors
 INCBIN "gfx/trainers/swimmer_m.gbcpal", middle_colors
@@ -54,7 +48,6 @@ INCBIN "gfx/trainers/rival2.gbcpal", middle_colors
 INCBIN "gfx/trainers/guitarist.gbcpal", middle_colors
 INCBIN "gfx/trainers/hiker.gbcpal", middle_colors
 INCBIN "gfx/trainers/biker.gbcpal", middle_colors
-INCBIN "gfx/trainers/blaine.gbcpal", middle_colors
 INCBIN "gfx/trainers/burglar.gbcpal", middle_colors
 INCBIN "gfx/trainers/firebreather.gbcpal", middle_colors
 INCBIN "gfx/trainers/juggler.gbcpal", middle_colors
@@ -72,7 +65,6 @@ INCBIN "gfx/trainers/kimono_girl.gbcpal", middle_colors
 INCBIN "gfx/trainers/twins.gbcpal", middle_colors
 INCBIN "gfx/trainers/pokefan_f.gbcpal", middle_colors
 INCBIN "gfx/trainers/red.gbcpal", middle_colors
-INCBIN "gfx/trainers/blue.gbcpal", middle_colors
 INCBIN "gfx/trainers/officer.gbcpal", middle_colors
 INCBIN "gfx/trainers/grunt_f.gbcpal", middle_colors
 INCBIN "gfx/trainers/mysticalman.gbcpal", middle_colors

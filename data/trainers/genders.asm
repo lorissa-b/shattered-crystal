@@ -19,16 +19,11 @@ BTTrainerClassGenders:
 	db FEMALE ; KAREN
 	db MALE   ; KOGA
 	db MALE   ; CHAMPION
-	db MALE   ; BROCK
-	db FEMALE ; MISTY
-	db MALE   ; LT_SURGE
 	db MALE   ; SCIENTIST
-	db FEMALE ; ERIKA
 	db MALE   ; YOUNGSTER
 	db MALE   ; SCHOOLBOY
 	db MALE   ; BIRD_KEEPER
 	db FEMALE ; LASS
-	db FEMALE ; JANINE
 	db MALE   ; COOLTRAINERM
 	db FEMALE ; COOLTRAINERF
 	db FEMALE ; BEAUTY
@@ -37,7 +32,6 @@ BTTrainerClassGenders:
 	db MALE   ; GENTLEMAN
 	db FEMALE ; SKIER
 	db FEMALE ; TEACHER
-	db FEMALE ; SABRINA
 	db MALE   ; BUG_CATCHER
 	db MALE   ; FISHER
 	db MALE   ; SWIMMERM
@@ -48,7 +42,6 @@ BTTrainerClassGenders:
 	db MALE   ; GUITARIST
 	db MALE   ; HIKER
 	db MALE   ; BIKER
-	db MALE   ; BLAINE
 	db MALE   ; BURGLAR
 	db MALE   ; FIREBREATHER
 	db MALE   ; JUGGLER
@@ -66,7 +59,6 @@ BTTrainerClassGenders:
 	db FEMALE ; TWINS
 	db FEMALE ; POKEFANF
 	db MALE   ; RED
-	db MALE   ; BLUE
 	db MALE   ; OFFICER
 	db FEMALE ; GRUNTF
 	assert_table_length NUM_TRAINER_CLASSES - 1 ; exclude MYSTICALMAN

@@ -2,7 +2,6 @@ BugContestantPointers:
 	table_width 2, BugContestantPointers
 	dw BugContestant_BugCatcherDon ; this reverts back to the player
 	dw BugContestant_BugCatcherDon
-	dw BugContestant_BugCatcherEd
 	dw BugContestant_CooltrainerMNick
 	dw BugContestant_PokefanMWilliam
 	dw BugContestant_BugCatcherBenny
@@ -10,7 +9,6 @@ BugContestantPointers:
 	dw BugContestant_PicnickerCindy
 	dw BugContestant_BugCatcherJosh
 	dw BugContestant_YoungsterSamuel
-	dw BugContestant_SchoolboyKipp
 	assert_table_length NUM_BUG_CONTESTANTS + 1
 
 ; contestant format:
@@ -24,12 +22,6 @@ BugContestant_BugCatcherDon:
 	dw KAKUNA,     300
 	dw METAPOD,    285
 	dw CATERPIE,   226
-
-BugContestant_BugCatcherEd:
-	db BUG_CATCHER, ED
-	dw BUTTERFREE, 286
-	dw BUTTERFREE, 251
-	dw CATERPIE,   237
 
 BugContestant_CooltrainerMNick:
 	db COOLTRAINERM, NICK
@@ -72,9 +64,3 @@ BugContestant_YoungsterSamuel:
 	dw WEEDLE,     270
 	dw PINSIR,     282
 	dw CATERPIE,   251
-
-BugContestant_SchoolboyKipp:
-	db SCHOOLBOY, KIPP
-	dw VENONAT,    267
-	dw PARAS,      254
-	dw KAKUNA,     259
