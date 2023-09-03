@@ -18,16 +18,11 @@ TrainerClassDVs:
 	dn  7, 15, 13, 15 ; KAREN
 	dn 13, 12, 13, 13 ; KOGA
 	dn 13, 12, 13, 13 ; CHAMPION
-	dn  9,  8,  8,  8 ; BROCK
-	dn  7,  8,  8,  8 ; MISTY
-	dn  9,  8,  8,  8 ; LT_SURGE
 	dn  9,  8,  8,  8 ; SCIENTIST
-	dn  7,  8,  8,  8 ; ERIKA
 	dn  9,  8,  8,  8 ; YOUNGSTER
 	dn  9,  8,  8,  8 ; SCHOOLBOY
 	dn  9,  8,  8,  8 ; BIRD_KEEPER
 	dn  5,  8,  8,  8 ; LASS
-	dn  9,  8,  8,  8 ; JANINE
 	dn 13,  8, 12,  8 ; COOLTRAINERM
 	dn  7, 12, 12,  8 ; COOLTRAINERF
 	dn  6,  9, 12,  8 ; BEAUTY
@@ -36,7 +31,6 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; GENTLEMAN
 	dn  9,  8,  8,  8 ; SKIER
 	dn  6,  8,  8,  8 ; TEACHER
-	dn  7, 13,  8,  7 ; SABRINA
 	dn  9,  8,  8,  8 ; BUG_CATCHER
 	dn  9,  8,  8,  8 ; FISHER
 	dn  9,  8,  8,  8 ; SWIMMERM
@@ -48,7 +42,6 @@ TrainerClassDVs:
 	dn  9,  8,  8,  8 ; GUITARIST
 	dn 10,  8,  8,  8 ; HIKER
 	dn  9,  8,  8,  8 ; BIKER
-	dn  9,  8,  8,  8 ; BLAINE
 	dn  9,  8,  8,  8 ; BURGLAR
 	dn  9,  8,  8,  8 ; FIREBREATHER
 	dn  9,  8,  8,  8 ; JUGGLER
@@ -66,7 +59,6 @@ TrainerClassDVs:
 	dn  6,  8, 10,  8 ; TWINS
 	dn  6, 13,  8,  8 ; POKEFANF
 	dn 15, 13, 13, 14 ; RED
-	dn  9, 13, 13, 13 ; BLUE
 	dn  9,  8,  8,  8 ; OFFICER
 	dn  7, 14, 10,  8 ; GRUNTF
 	dn  9,  8,  8,  8 ; MYSTICALMAN

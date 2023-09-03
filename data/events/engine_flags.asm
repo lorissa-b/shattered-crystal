@@ -53,15 +53,6 @@ EngineFlags:
 	engine_flag wJohtoBadges, GLACIERBADGE
 	engine_flag wJohtoBadges, RISINGBADGE
 
-	engine_flag wKantoBadges, BOULDERBADGE
-	engine_flag wKantoBadges, CASCADEBADGE
-	engine_flag wKantoBadges, THUNDERBADGE
-	engine_flag wKantoBadges, RAINBOWBADGE
-	engine_flag wKantoBadges, SOULBADGE
-	engine_flag wKantoBadges, MARSHBADGE
-	engine_flag wKantoBadges, VOLCANOBADGE
-	engine_flag wKantoBadges, EARTHBADGE
-
 	; unown sets (see data/wild/unlocked_unowns.asm)
 	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_A_TO_K_F
 	engine_flag wUnlockedUnowns, UNLOCKED_UNOWNS_L_TO_R_F
@@ -75,17 +66,6 @@ EngineFlags:
 	; fly
 	engine_flag wVisitedSpawns, SPAWN_HOME
 	engine_flag wVisitedSpawns, SPAWN_DEBUG
-	engine_flag wVisitedSpawns, SPAWN_PALLET
-	engine_flag wVisitedSpawns, SPAWN_VIRIDIAN
-	engine_flag wVisitedSpawns, SPAWN_PEWTER
-	engine_flag wVisitedSpawns, SPAWN_CERULEAN
-	engine_flag wVisitedSpawns, SPAWN_ROCK_TUNNEL
-	engine_flag wVisitedSpawns, SPAWN_VERMILION
-	engine_flag wVisitedSpawns, SPAWN_LAVENDER
-	engine_flag wVisitedSpawns, SPAWN_SAFFRON
-	engine_flag wVisitedSpawns, SPAWN_CELADON
-	engine_flag wVisitedSpawns, SPAWN_FUCHSIA
-	engine_flag wVisitedSpawns, SPAWN_CINNABAR
 	engine_flag wVisitedSpawns, SPAWN_INDIGO
 	engine_flag wVisitedSpawns, SPAWN_NEW_BARK
 	engine_flag wVisitedSpawns, SPAWN_CHERRYGROVE

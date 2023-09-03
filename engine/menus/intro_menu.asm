@@ -170,6 +170,9 @@ _ResetWRAM:
 	ld hl, wNumBalls
 	call .InitList
 
+	ld hl, wNumBerries
+	call .InitList
+
 	ld hl, wNumPCItems
 	call .InitList
 
@@ -202,7 +205,6 @@ _ResetWRAM:
 	ld [wMonType], a
 
 	ld [wJohtoBadges], a
-	ld [wKantoBadges], a
 
 	ld [wCoins], a
 	ld [wCoins + 1], a

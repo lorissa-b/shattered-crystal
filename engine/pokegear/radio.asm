@@ -1073,7 +1073,6 @@ PeoplePlaces4: ; People
 	bit STATUSFLAGS_HALL_OF_FAME_F, a
 	jr z, .ok
 	ld hl, PnP_HiddenPeople_BeatE4
-	ld a, [wKantoBadges]
 	cp %11111111 ; all badges
 	jr nz, .ok
 	ld hl, PnP_HiddenPeople_BeatKanto
