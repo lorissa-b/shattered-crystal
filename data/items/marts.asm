@@ -1,23 +1,21 @@
 Marts:
 ; entries correspond to MART_* constants (see constants/mart_constants.asm)
 	table_width 2, Marts
-	dw MartCherrygrove
 	dw MartCherrygroveDex
-	dw MartViolet
-	dw MartAzalea
 	dw MartCianwood
-	dw MartGoldenrod2F1
 	dw MartGoldenrod2F2
 	dw MartGoldenrod3F
 	dw MartGoldenrod4F
 	dw MartGoldenrod5F
-	dw MartOlivine
-	dw MartEcruteak
 	dw MartMahogany1
 	dw MartMahogany2
-	dw MartBlackthorn
-	dw MartIndigoPlateau
 	dw MartUnderground
+	dw MartNoBadges
+	dw MartOneBadge
+	dw MartThreeBadges
+	dw MartFiveBadges
+	dw MartSevenBadges
+	dw MartEightBadges
 	assert_table_length NUM_MARTS
 
 MartCherrygrove:
@@ -201,6 +199,109 @@ MartUnderground:
 	db ENERGY_ROOT
 	db HEAL_POWDER
 	db REVIVAL_HERB
+	db -1 ; end
+
+MartNoBadges:
+	db 5 ; # items
+	db POKE_BALL
+	db POTION
+	db ANTIDOTE
+	db PARLYZ_HEAL
+	db AWAKENING
+	db -1 ; end
+
+MartOneBadge:
+	db 10 ; # items
+	db POKE_BALL
+	db POTION
+	db SUPER_POTION
+	db ANTIDOTE
+	db PARLYZ_HEAL
+	db AWAKENING
+	db BURN_HEAL
+	db ICE_HEAL
+	db ESCAPE_ROPE
+	db REPEL
+	db -1 ; end
+
+MartThreeBadges:
+	db 13 ; # items
+	db POKE_BALL
+	db GREAT_BALL
+	db POTION
+	db SUPER_POTION
+	db REVIVE
+	db ANTIDOTE
+	db PARLYZ_HEAL
+	db AWAKENING
+	db BURN_HEAL
+	db ICE_HEAL
+	db ESCAPE_ROPE
+	db REPEL
+	db SUPER_REPEL
+	db -1 ; end
+
+MartFiveBadges:
+	db 16 ; # items
+	db POKE_BALL
+	db GREAT_BALL
+	db ULTRA_BALL
+	db POTION
+	db SUPER_POTION
+	db HYPER_POTION
+	db REVIVE
+	db ANTIDOTE
+	db PARLYZ_HEAL
+	db AWAKENING
+	db BURN_HEAL
+	db ICE_HEAL
+	db FULL_HEAL
+	db ESCAPE_ROPE
+	db REPEL
+	db SUPER_REPEL
+	db -1 ; end
+
+MartSevenBadges:
+	db 17 ; # items
+	db POKE_BALL
+	db GREAT_BALL
+	db ULTRA_BALL
+	db POTION
+	db SUPER_POTION
+	db HYPER_POTION
+	db REVIVE
+	db ANTIDOTE
+	db PARLYZ_HEAL
+	db AWAKENING
+	db BURN_HEAL
+	db ICE_HEAL
+	db FULL_HEAL
+	db ESCAPE_ROPE
+	db REPEL
+	db SUPER_REPEL
+	db MAX_REPEL
+	db -1 ; end
+
+MartEightBadges:
+	db 17 ; # items
+	db POKE_BALL
+	db GREAT_BALL
+	db ULTRA_BALL
+	db POTION
+	db SUPER_POTION
+	db HYPER_POTION
+	db FULL_RESTORE
+	db REVIVE
+	db ANTIDOTE
+	db PARLYZ_HEAL
+	db AWAKENING
+	db BURN_HEAL
+	db ICE_HEAL
+	db FULL_HEAL
+	db ESCAPE_ROPE
+	db REPEL
+	db SUPER_REPEL
+	db MAX_REPEL
 	db -1 ; end
 
 DefaultMart:
